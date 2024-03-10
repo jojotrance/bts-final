@@ -83,28 +83,6 @@ class StallController extends Controller
         return redirect()->route('stall.index');
     }
 
-
-
-    // public function update(Request $request, $id)
-    // {
-    //     $payment = Payment::findOrFail($id);
-
-    //     $data = [
-    //         'amount_paid' => $request->amount_paid,
-    //         'remarks' => $request->remarks,
-    //     ];
-
-    //     if ($request->has('amount_paid')) {
-    //         $previous_amount_paid = $payment->amount_paid;
-    //         $data['amount_to_be_paid'] = $payment->amount_to_be_paid - ($request->amount_paid - $previous_amount_paid);
-    //         $data['balance'] = $data['amount_to_be_paid'] - $request->amount_paid;
-    //     }
-
-    //     $payment->update($data);
-
-    //     return redirect()->route('payment.index')->with('success', 'Payment updated successfully');
-    // }
-
     public function destroy(string $id)
     {
         Stall::destroy($id);

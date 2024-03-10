@@ -27,8 +27,8 @@ class UserController extends Controller
                 $stalls->where('status', 'Maintenance');
             } else {
                 $stalls->where('status', $request->status);
-            }
-        }
+         }
+    }
 
         $filteredStalls = $stalls->get();
 

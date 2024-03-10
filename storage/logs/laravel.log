@@ -19110,3 +19110,15 @@ Did you mean one of these?
 #55 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
 "} 
+[2024-03-10 09:53:20] local.ERROR: Class "Barryvdh\DomPDF\ServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Barryvdh\\DomPDF\\ServiceProvider\" not found at C:\\Users\\Adrian\\bts-final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:206)
+[stacktrace]
+#0 C:\\Users\\Adrian\\bts-final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider()
+#1 C:\\Users\\Adrian\\bts-final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest()
+#2 C:\\Users\\Adrian\\bts-final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(765): Illuminate\\Foundation\\ProviderRepository->load()
+#3 C:\\Users\\Adrian\\bts-final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\Users\\Adrian\\bts-final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
+#5 C:\\Users\\Adrian\\bts-final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#6 C:\\Users\\Adrian\\bts-final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
