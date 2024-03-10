@@ -11,7 +11,7 @@
 #8 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run()
 #9 C:\\Users\\Adrian\\Thesis\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #10 {main}
-"} 
+"}
 [2024-03-02 03:08:40] local.ERROR: Class "App\Http\Controllers\Stall" not found {"userId":1,"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\Stall\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\StallController.php:14)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\StallController->index()
@@ -64,7 +64,7 @@
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-02 03:09:52] local.ERROR: Class "App\Http\Controllers\View" not found {"userId":1,"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\View\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\StallController.php:16)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\StallController->index()
@@ -117,7 +117,7 @@
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-02 03:12:00] local.ERROR: Method App\Http\Controllers\StallController::delete does not exist. {"userId":1,"exception":"[object] (BadMethodCallException(code: 0): Method App\\Http\\Controllers\\StallController::delete does not exist. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php:68)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): Illuminate\\Routing\\Controller->__call()
@@ -170,7 +170,7 @@
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-02 03:12:43] local.ERROR: Method App\Http\Controllers\StallController::delete does not exist. {"userId":1,"exception":"[object] (BadMethodCallException(code: 0): Method App\\Http\\Controllers\\StallController::delete does not exist. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php:68)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): Illuminate\\Routing\\Controller->__call()
@@ -223,7 +223,7 @@
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-02 03:14:46] local.ERROR: Method App\Http\Controllers\StallController::delete does not exist. {"userId":1,"exception":"[object] (BadMethodCallException(code: 0): Method App\\Http\\Controllers\\StallController::delete does not exist. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php:68)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): Illuminate\\Routing\\Controller->__call()
@@ -276,7 +276,7 @@
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-02 03:15:24] local.ERROR: Method App\Http\Controllers\StallController::delete does not exist. {"userId":1,"exception":"[object] (BadMethodCallException(code: 0): Method App\\Http\\Controllers\\StallController::delete does not exist. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php:68)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): Illuminate\\Routing\\Controller->__call()
@@ -329,7 +329,7 @@
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-02 03:25:12] local.ERROR: Class "Form" not found {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\stall\\edit.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Class \"Form\" not found at C:\\Users\\Adrian\\Thesis\\resources\\views\\stall\\edit.blade.php:5)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): require()
@@ -449,7 +449,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 03:26:42] local.ERROR: Route [stalls.index] not defined. {"userId":1,"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [stalls.index] not defined. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Redirector.php(154): Illuminate\\Routing\\UrlGenerator->route()
@@ -504,7 +504,7 @@
 #49 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #50 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #51 {main}
-"} 
+"}
 [2024-03-02 04:05:06] local.ERROR: Class "App\Http\Controllers\View" not found {"userId":1,"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\View\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\TenantController.php:16)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\TenantController->index()
@@ -557,7 +557,7 @@
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-02 04:05:54] local.ERROR: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\admin\\tenant.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): syntax error, unexpected end of file, expecting \"elseif\" or \"else\" or \"endif\" at C:\\Users\\Adrian\\Thesis\\resources\\views\\admin\\tenant.blade.php:9)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(125): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
@@ -675,7 +675,7 @@
 #53 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #54 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #55 {main}
-"} 
+"}
 [2024-03-02 04:50:15] local.ERROR: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'listener_id' doesn't exist in table (Connection: mysql, SQL: create table `tenants_stalls` (`tenants_id` bigint unsigned not null, `stalls_id` bigint unsigned not null, `created_at` timestamp null, `updated_at` timestamp null, primary key (`tenants_id`, `listener_id`)) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42000): SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'listener_id' doesn't exist in table (Connection: mysql, SQL: create table `tenants_stalls` (`tenants_id` bigint unsigned not null, `stalls_id` bigint unsigned not null, `created_at` timestamp null, `updated_at` timestamp null, primary key (`tenants_id`, `listener_id`)) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -749,71 +749,71 @@
 #32 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run()
 #33 C:\\Users\\Adrian\\Thesis\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #34 {main}
-"} 
+"}
 [2024-03-02 05:19:03] local.ERROR: Cannot redeclare App\Models\Tenant::user() {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare App\\Models\\Tenant::user() at C:\\Users\\Adrian\\Thesis\\app\\Models\\Tenant.php:18)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 05:19:43] local.ERROR: Unclosed '{' on line 9 {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Unclosed '{' on line 9 at C:\\Users\\Adrian\\Thesis\\app\\Models\\Tenant.php:18)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 05:20:03] local.ERROR: Unclosed '{' on line 9 {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Unclosed '{' on line 9 at C:\\Users\\Adrian\\Thesis\\app\\Models\\Tenant.php:18)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 05:20:51] local.ERROR: Unclosed '{' on line 9 {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Unclosed '{' on line 9 at C:\\Users\\Adrian\\Thesis\\app\\Models\\Tenant.php:18)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 05:21:00] local.ERROR: Unclosed '{' on line 9 {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Unclosed '{' on line 9 at C:\\Users\\Adrian\\Thesis\\app\\Models\\Tenant.php:18)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 05:21:03] local.ERROR: Unclosed '{' on line 9 {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Unclosed '{' on line 9 at C:\\Users\\Adrian\\Thesis\\app\\Models\\Tenant.php:18)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 05:21:17] local.ERROR: Unclosed '{' on line 9 {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Unclosed '{' on line 9 at C:\\Users\\Adrian\\Thesis\\app\\Models\\Tenant.php:18)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 05:21:51] local.ERROR: syntax error, unexpected token "}", expecting ";" or "{" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \";\" or \"{\" at C:\\Users\\Adrian\\Thesis\\app\\Models\\Tenant.php:19)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 05:22:03] local.ERROR: syntax error, unexpected token "}", expecting ";" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \";\" at C:\\Users\\Adrian\\Thesis\\app\\Models\\Tenant.php:20)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 05:22:04] local.ERROR: syntax error, unexpected token "}", expecting identifier or variable or "{" or "$" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting identifier or variable or \"{\" or \"$\" at C:\\Users\\Adrian\\Thesis\\app\\Models\\Tenant.php:20)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 05:22:10] local.ERROR: syntax error, unexpected token "}", expecting ";" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \";\" at C:\\Users\\Adrian\\Thesis\\app\\Models\\Tenant.php:20)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 05:22:17] local.ERROR: syntax error, unexpected token "public", expecting identifier or variable or "{" or "$" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"public\", expecting identifier or variable or \"{\" or \"$\" at C:\\Users\\Adrian\\Thesis\\app\\Models\\Tenant.php:24)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 05:23:03] local.ERROR: syntax error, unexpected token "}" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\" at C:\\Users\\Adrian\\Thesis\\app\\Models\\Tenant.php:20)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 08:09:29] local.ERROR: syntax error, unexpected token "protected", expecting "," or ";" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"protected\", expecting \",\" or \";\" at C:\\Users\\Adrian\\Thesis\\app\\Models\\Tenant.php:12)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 08:19:06] local.ERROR: Cannot redeclare App\Models\Payment::tenant() {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare App\\Models\\Payment::tenant() at C:\\Users\\Adrian\\Thesis\\app\\Models\\Payment.php:25)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 08:19:13] local.ERROR: Cannot redeclare App\Models\Payment::tenant() {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare App\\Models\\Payment::tenant() at C:\\Users\\Adrian\\Thesis\\app\\Models\\Payment.php:25)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 08:36:29] local.ERROR: Undefined variable $stalls {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\user\\dashboard.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $stalls at C:\\Users\\Adrian\\Thesis\\resources\\views\\user\\dashboard.blade.php:24)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -933,7 +933,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 08:39:50] local.ERROR: Class "App\Http\Controllers\Stall" not found {"userId":1,"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\Stall\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\HomeController.php:15)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\HomeController->index()
@@ -984,7 +984,7 @@
 #45 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #46 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #47 {main}
-"} 
+"}
 [2024-03-02 08:40:09] local.ERROR: Undefined variable $stalls {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\user\\dashboard.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $stalls at C:\\Users\\Adrian\\Thesis\\resources\\views\\user\\dashboard.blade.php:24)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -1104,7 +1104,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 08:40:28] local.ERROR: Undefined variable $stalls {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\user\\dashboard.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $stalls at C:\\Users\\Adrian\\Thesis\\resources\\views\\user\\dashboard.blade.php:24)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -1224,7 +1224,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 08:40:47] local.ERROR: Undefined variable $stalls {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\user\\dashboard.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $stalls at C:\\Users\\Adrian\\Thesis\\resources\\views\\user\\dashboard.blade.php:24)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -1344,7 +1344,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 08:49:40] local.ERROR: Route [user.index] not defined. {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\user\\dashboard.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [user.index] not defined. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route()
@@ -1464,7 +1464,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 08:50:05] local.ERROR: Route [user.index] not defined. {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\user\\dashboard.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [user.index] not defined. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route()
@@ -1584,7 +1584,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 08:50:45] local.ERROR: Route [user.index] not defined. {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\user\\dashboard.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [user.index] not defined. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route()
@@ -1704,7 +1704,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 08:51:06] local.ERROR: Target class [UserController] does not exist. {"userId":1,"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [UserController] does not exist. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build()
@@ -1809,7 +1809,7 @@
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-02 08:51:21] local.ERROR: Target class [UserController] does not exist. {"userId":1,"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [UserController] does not exist. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build()
@@ -1914,7 +1914,7 @@
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-02 08:51:30] local.ERROR: Target class [UserController] does not exist. {"userId":1,"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [UserController] does not exist. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build()
@@ -2019,7 +2019,7 @@
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-02 08:51:52] local.ERROR: Class "App\Http\Controllers\Stall" not found {"userId":1,"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\Stall\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\UserController.php:14)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\UserController->index()
@@ -2068,7 +2068,7 @@
 #43 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #44 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #45 {main}
-"} 
+"}
 [2024-03-02 08:52:16] local.ERROR: Class "App\Http\Controllers\View" not found {"userId":1,"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\View\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\UserController.php:16)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\UserController->index()
@@ -2117,7 +2117,7 @@
 #43 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #44 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #45 {main}
-"} 
+"}
 [2024-03-02 09:04:43] local.ERROR: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): syntax error, unexpected end of file, expecting \"elseif\" or \"else\" or \"endif\" at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:39)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(125): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
@@ -2227,7 +2227,7 @@
 #49 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #50 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #51 {main}
-"} 
+"}
 [2024-03-02 09:11:34] local.ERROR: Undefined variable $userName {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $userName at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:14)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -2343,7 +2343,7 @@
 #52 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #53 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #54 {main}
-"} 
+"}
 [2024-03-02 09:12:34] local.ERROR: Undefined variable $userName {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $userName at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:14)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -2459,7 +2459,7 @@
 #52 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #53 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #54 {main}
-"} 
+"}
 [2024-03-02 09:13:01] local.ERROR: Undefined variable $userName {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $userName at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:14)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -2575,7 +2575,7 @@
 #52 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #53 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #54 {main}
-"} 
+"}
 [2024-03-02 09:13:57] local.ERROR: Undefined variable $userName {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $userName at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:14)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -2691,7 +2691,7 @@
 #52 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #53 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #54 {main}
-"} 
+"}
 [2024-03-02 09:16:10] local.ERROR: Undefined variable $userName {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $userName at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:14)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -2807,7 +2807,7 @@
 #52 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #53 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #54 {main}
-"} 
+"}
 [2024-03-02 09:16:46] local.ERROR: Undefined variable $userName {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $userName at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:14)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -2923,7 +2923,7 @@
 #52 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #53 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #54 {main}
-"} 
+"}
 [2024-03-02 09:16:52] local.ERROR: Undefined variable $userName {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $userName at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:14)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -3039,7 +3039,7 @@
 #52 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #53 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #54 {main}
-"} 
+"}
 [2024-03-02 09:19:42] local.ERROR: Undefined variable $userName {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $userName at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:14)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -3159,7 +3159,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 09:20:37] local.ERROR: Undefined variable $userName {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $userName at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:14)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -3279,7 +3279,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 09:20:48] local.ERROR: Undefined variable $userName {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $userName at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:14)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -3399,7 +3399,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 09:20:51] local.ERROR: Undefined variable $userName {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $userName at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:14)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -3519,7 +3519,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 09:20:59] local.ERROR: Undefined variable $userName {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $userName at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:14)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -3639,7 +3639,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 09:29:20] local.ERROR: Undefined variable $userName {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $userName at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:14)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -3759,7 +3759,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 09:30:03] local.ERROR: Undefined variable $userName {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $userName at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:14)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -3879,7 +3879,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 09:37:40] local.ERROR: Undefined variable $userName {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $userName at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:14)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -3999,7 +3999,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 09:37:49] local.ERROR: Undefined variable $userName {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $userName at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:14)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -4119,7 +4119,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 09:41:51] local.ERROR: Undefined variable $name {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $name at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:14)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -4239,7 +4239,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 09:43:17] local.ERROR: Undefined variable $userName {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $userName at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:14)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -4359,7 +4359,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 10:22:10] local.ERROR: Undefined variable $path {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $path at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:13)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -4479,7 +4479,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 10:24:08] local.ERROR: Undefined variable $path {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $path at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:13)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -4599,7 +4599,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 10:24:12] local.ERROR: Undefined variable $path {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $path at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:13)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -4719,7 +4719,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 10:34:21] local.ERROR: Class "App\Http\Controllers\Auth" not found {"userId":1,"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\Auth\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\TenantController.php:43)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\TenantController->store()
@@ -4770,7 +4770,7 @@
 #45 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #46 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #47 {main}
-"} 
+"}
 [2024-03-02 10:34:55] local.ERROR: Call to undefined method App\Models\User::tenant() {"userId":1,"exception":"[object] (BadMethodCallException(code: 0): Call to undefined method App\\Models\\User::tenant() at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php:67)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php(36): Illuminate\\Database\\Eloquent\\Model::throwBadMethodCallException()
@@ -4824,7 +4824,7 @@
 #48 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #49 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #50 {main}
-"} 
+"}
 [2024-03-02 10:46:34] local.ERROR: Call to undefined method App\Models\User::tenant() {"userId":2,"exception":"[object] (BadMethodCallException(code: 0): Call to undefined method App\\Models\\User::tenant() at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php:67)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php(36): Illuminate\\Database\\Eloquent\\Model::throwBadMethodCallException()
@@ -4878,27 +4878,27 @@
 #48 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #49 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #50 {main}
-"} 
+"}
 [2024-03-02 11:09:18] local.ERROR: Trait "App\Http\Controllers\App\Models\Payment" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"App\\Http\\Controllers\\App\\Models\\Payment\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\TenantController.php:13)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 11:09:35] local.ERROR: Trait "App\Http\Controllers\App\Models\Payment" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"App\\Http\\Controllers\\App\\Models\\Payment\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\TenantController.php:14)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 11:09:50] local.ERROR: Trait "App\Http\Controllers\App\Models\Payment" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"App\\Http\\Controllers\\App\\Models\\Payment\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\TenantController.php:14)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 11:10:15] local.ERROR: Trait "App\Http\Controllers\App\Models\Payment" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"App\\Http\\Controllers\\App\\Models\\Payment\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\TenantController.php:14)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 11:12:39] local.ERROR: Trait "App\Http\Controllers\App\Models\Payment" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"App\\Http\\Controllers\\App\\Models\\Payment\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\TenantController.php:14)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-02 12:09:13] local.ERROR: Too few arguments to function App\Http\Controllers\TenantController::store(), 1 passed in C:\Users\Adrian\Thesis\vendor\laravel\framework\src\Illuminate\Routing\Controller.php on line 54 and exactly 2 expected {"userId":2,"exception":"[object] (ArgumentCountError(code: 0): Too few arguments to function App\\Http\\Controllers\\TenantController::store(), 1 passed in C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php on line 54 and exactly 2 expected at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\TenantController.php:70)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\TenantController->store()
@@ -4949,7 +4949,7 @@
 #45 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #46 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #47 {main}
-"} 
+"}
 [2024-03-02 12:13:09] local.ERROR: Undefined variable $stallId {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $stallId at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:16)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -5069,7 +5069,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 12:14:58] local.ERROR: Undefined variable $stallId {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $stallId at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:16)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -5189,7 +5189,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 12:15:05] local.ERROR: Undefined variable $stallId {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $stallId at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:16)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -5309,7 +5309,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 12:25:30] local.ERROR: Undefined variable $stallId {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $stallId at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:16)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -5429,7 +5429,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 12:29:04] local.ERROR: Undefined variable $stallId {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $stallId at C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php:16)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -5549,7 +5549,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 12:32:01] local.ERROR: Route [tenants.store] not defined. {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [tenants.store] not defined. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route()
@@ -5669,7 +5669,7 @@
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 12:32:34] local.ERROR: Too few arguments to function App\Http\Controllers\TenantController::store(), 1 passed in C:\Users\Adrian\Thesis\vendor\laravel\framework\src\Illuminate\Routing\Controller.php on line 54 and exactly 2 expected {"userId":2,"exception":"[object] (ArgumentCountError(code: 0): Too few arguments to function App\\Http\\Controllers\\TenantController::store(), 1 passed in C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php on line 54 and exactly 2 expected at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\TenantController.php:71)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\TenantController->store()
@@ -5720,7 +5720,7 @@
 #45 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #46 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #47 {main}
-"} 
+"}
 [2024-03-02 12:35:23] local.ERROR: Too few arguments to function App\Http\Controllers\TenantController::store(), 1 passed in C:\Users\Adrian\Thesis\vendor\laravel\framework\src\Illuminate\Routing\Controller.php on line 54 and exactly 2 expected {"userId":2,"exception":"[object] (ArgumentCountError(code: 0): Too few arguments to function App\\Http\\Controllers\\TenantController::store(), 1 passed in C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php on line 54 and exactly 2 expected at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\TenantController.php:71)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\TenantController->store()
@@ -5771,7 +5771,7 @@
 #45 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #46 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #47 {main}
-"} 
+"}
 [2024-03-02 12:37:19] local.ERROR: Too few arguments to function App\Http\Controllers\TenantController::store(), 1 passed in C:\Users\Adrian\Thesis\vendor\laravel\framework\src\Illuminate\Routing\Controller.php on line 54 and exactly 2 expected {"userId":2,"exception":"[object] (ArgumentCountError(code: 0): Too few arguments to function App\\Http\\Controllers\\TenantController::store(), 1 passed in C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php on line 54 and exactly 2 expected at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\TenantController.php:71)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\TenantController->store()
@@ -5822,7 +5822,7 @@
 #45 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #46 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #47 {main}
-"} 
+"}
 [2024-03-02 12:40:54] local.ERROR: Too few arguments to function App\Http\Controllers\TenantController::store(), 1 passed in C:\Users\Adrian\Thesis\vendor\laravel\framework\src\Illuminate\Routing\Controller.php on line 54 and exactly 2 expected {"userId":2,"exception":"[object] (ArgumentCountError(code: 0): Too few arguments to function App\\Http\\Controllers\\TenantController::store(), 1 passed in C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php on line 54 and exactly 2 expected at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\TenantController.php:71)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\TenantController->store()
@@ -5873,7 +5873,7 @@
 #45 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #46 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #47 {main}
-"} 
+"}
 [2024-03-02 12:42:08] local.ERROR: Missing required parameter for [Route: tenant.store] [URI: tenants/store/{stallId}] [Missing parameter: stallId]. {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Missing required parameter for [Route: tenant.store] [URI: tenants/store/{stallId}] [Missing parameter: stallId]. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Exceptions\\UrlGenerationException.php:35)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteUrlGenerator.php(90): Illuminate\\Routing\\Exceptions\\UrlGenerationException::forMissingParameters()
@@ -5999,7 +5999,7 @@
 #57 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #58 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #59 {main}
-"} 
+"}
 [2024-03-02 12:42:30] local.ERROR: Missing required parameter for [Route: tenant.store] [URI: tenants/store/{stallId}] [Missing parameter: stallId]. {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Missing required parameter for [Route: tenant.store] [URI: tenants/store/{stallId}] [Missing parameter: stallId]. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Exceptions\\UrlGenerationException.php:35)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteUrlGenerator.php(90): Illuminate\\Routing\\Exceptions\\UrlGenerationException::forMissingParameters()
@@ -6125,7 +6125,7 @@
 #57 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #58 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #59 {main}
-"} 
+"}
 [2024-03-02 12:44:14] local.ERROR: Call to undefined method App\Models\Tenant::payments() {"userId":2,"exception":"[object] (BadMethodCallException(code: 0): Call to undefined method App\\Models\\Tenant::payments() at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php:67)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php(36): Illuminate\\Database\\Eloquent\\Model::throwBadMethodCallException()
@@ -6177,7 +6177,7 @@
 #46 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #47 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #48 {main}
-"} 
+"}
 [2024-03-02 13:10:53] local.ERROR: Command "make:listname" is not defined.
 
 Did you mean one of these?
@@ -6239,7 +6239,7 @@ Did you mean one of these?
 #2 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run()
 #3 C:\\Users\\Adrian\\Thesis\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #4 {main}
-"} 
+"}
 [2024-03-02 13:23:32] local.ERROR: Call to undefined relationship [users] on model [App\Models\Tenant]. {"userId":1,"exception":"[object] (Illuminate\\Database\\Eloquent\\RelationNotFoundException(code: 0): Call to undefined relationship [users] on model [App\\Models\\Tenant]. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\RelationNotFoundException.php:35)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(805): Illuminate\\Database\\Eloquent\\RelationNotFoundException::make()
@@ -6299,7 +6299,7 @@ Did you mean one of these?
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-02 13:25:02] local.ERROR: Attempt to read property "name" on null {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\admin\\tenant.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Attempt to read property \"name\" on null at C:\\Users\\Adrian\\Thesis\\resources\\views\\admin\\tenant.blade.php:22)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -6423,7 +6423,7 @@ Did you mean one of these?
 #56 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #58 {main}
-"} 
+"}
 [2024-03-02 13:37:22] local.ERROR: Missing required parameter for [Route: tenant.store] [URI: tenants/store/{id}] [Missing parameter: id]. {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":3,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Missing required parameter for [Route: tenant.store] [URI: tenants/store/{id}] [Missing parameter: id]. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Exceptions\\UrlGenerationException.php:35)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteUrlGenerator.php(90): Illuminate\\Routing\\Exceptions\\UrlGenerationException::forMissingParameters()
@@ -6549,7 +6549,7 @@ Did you mean one of these?
 #57 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #58 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #59 {main}
-"} 
+"}
 [2024-03-02 13:37:39] local.ERROR: Missing required parameter for [Route: tenant.store] [URI: tenants/store/{id}] [Missing parameter: id]. {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":3,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Missing required parameter for [Route: tenant.store] [URI: tenants/store/{id}] [Missing parameter: id]. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Exceptions\\UrlGenerationException.php:35)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteUrlGenerator.php(90): Illuminate\\Routing\\Exceptions\\UrlGenerationException::forMissingParameters()
@@ -6675,7 +6675,7 @@ Did you mean one of these?
 #57 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #58 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #59 {main}
-"} 
+"}
 [2024-03-02 13:38:32] local.ERROR: Missing required parameter for [Route: tenant.store] [URI: tenants/store/{id}] [Missing parameter: id]. {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":3,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Missing required parameter for [Route: tenant.store] [URI: tenants/store/{id}] [Missing parameter: id]. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Exceptions\\UrlGenerationException.php:35)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteUrlGenerator.php(90): Illuminate\\Routing\\Exceptions\\UrlGenerationException::forMissingParameters()
@@ -6801,7 +6801,7 @@ Did you mean one of these?
 #57 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #58 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #59 {main}
-"} 
+"}
 [2024-03-02 13:39:07] local.ERROR: Missing required parameter for [Route: tenant.store] [URI: tenants/store/{id}] [Missing parameter: id]. {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\tenant\\create.blade.php","data":[]},"userId":3,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Missing required parameter for [Route: tenant.store] [URI: tenants/store/{id}] [Missing parameter: id]. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Exceptions\\UrlGenerationException.php:35)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteUrlGenerator.php(90): Illuminate\\Routing\\Exceptions\\UrlGenerationException::forMissingParameters()
@@ -6927,7 +6927,7 @@ Did you mean one of these?
 #57 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #58 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #59 {main}
-"} 
+"}
 [2024-03-02 13:52:47] local.ERROR: Class "App\Http\Controllers\View" not found {"userId":1,"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\View\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\PaymentController.php:16)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\PaymentController->index()
@@ -6980,7 +6980,7 @@ Did you mean one of these?
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-02 13:52:51] local.ERROR: Class "App\Http\Controllers\View" not found {"userId":1,"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\View\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\PaymentController.php:16)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\PaymentController->index()
@@ -7033,7 +7033,7 @@ Did you mean one of these?
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-02 13:52:55] local.ERROR: Class "App\Http\Controllers\View" not found {"userId":1,"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\View\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\PaymentController.php:16)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\PaymentController->index()
@@ -7086,7 +7086,7 @@ Did you mean one of these?
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-02 14:01:48] local.ERROR: Class "App\Http\Controllers\View" not found {"userId":1,"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\View\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\PaymentController.php:16)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\PaymentController->index()
@@ -7139,7 +7139,7 @@ Did you mean one of these?
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-02 14:02:11] local.ERROR: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\admin\\payment.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): syntax error, unexpected end of file, expecting \"elseif\" or \"else\" or \"endif\" at C:\\Users\\Adrian\\Thesis\\resources\\views\\admin\\payment.blade.php:10)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(125): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
@@ -7257,7 +7257,7 @@ Did you mean one of these?
 #53 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #54 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #55 {main}
-"} 
+"}
 [2024-03-02 14:06:47] local.ERROR: Class "App\Http\Controllers\User" not found {"userId":1,"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\User\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\PaymentController.php:16)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\PaymentController->index()
@@ -7310,7 +7310,7 @@ Did you mean one of these?
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-02 14:07:07] local.ERROR: Class "App\Http\Controllers\Tenant" not found {"userId":1,"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\Tenant\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\PaymentController.php:19)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\PaymentController->index()
@@ -7363,7 +7363,7 @@ Did you mean one of these?
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-02 14:46:20] local.ERROR: Route [payments.update] not defined. {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\payment\\edit.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [payments.update] not defined. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route()
@@ -7487,7 +7487,7 @@ Did you mean one of these?
 #56 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #58 {main}
-"} 
+"}
 [2024-03-02 15:59:37] local.ERROR: syntax error, unexpected token "->", expecting identifier or variable or "{" or "$" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"->\", expecting identifier or variable or \"{\" or \"$\" at C:\\Users\\Adrian\\Thesis\\routes\\web.php:55)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(511): Illuminate\\Routing\\RouteFileRegistrar->register()
@@ -7549,10 +7549,10 @@ Did you mean one of these?
 #56 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run()
 #57 C:\\Users\\Adrian\\Thesis\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #58 {main}
-"} 
-[2024-03-02 16:00:15] local.ERROR: Error updating payment: Route [payments.index] not defined.  
-[2024-03-02 16:00:16] local.ERROR: Error updating payment: Route [payments.index] not defined.  
-[2024-03-02 16:00:19] local.ERROR: Error updating payment: Route [payments.index] not defined.  
+"}
+[2024-03-02 16:00:15] local.ERROR: Error updating payment: Route [payments.index] not defined.
+[2024-03-02 16:00:16] local.ERROR: Error updating payment: Route [payments.index] not defined.
+[2024-03-02 16:00:19] local.ERROR: Error updating payment: Route [payments.index] not defined.
 [2024-03-02 16:12:03] local.ERROR: Class "App\Http\Controllers\View" not found {"userId":1,"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\View\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\ParkingController.php:16)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\ParkingController->index()
@@ -7605,7 +7605,7 @@ Did you mean one of these?
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-02 16:12:33] local.ERROR: View [layouts.parking] not found. {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\parking\\index.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): View [layouts.parking] not found. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths()
@@ -7731,7 +7731,7 @@ Did you mean one of these?
 #57 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #58 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #59 {main}
-"} 
+"}
 [2024-03-02 16:26:57] local.ERROR: Class "App\Http\Controllers\Carbon" not found {"userId":1,"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\Carbon\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\ParkingController.php:36)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\ParkingController->store()
@@ -7784,7 +7784,7 @@ Did you mean one of these?
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-02 16:27:16] local.ERROR: Class "Carbon" not found {"userId":1,"exception":"[object] (Error(code: 0): Class \"Carbon\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\ParkingController.php:37)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\ParkingController->store()
@@ -7837,7 +7837,7 @@ Did you mean one of these?
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-02 16:27:38] local.ERROR: Class "App\Http\Controllers\Redirect" not found {"userId":1,"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\Redirect\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\ParkingController.php:49)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\ParkingController->store()
@@ -7890,7 +7890,7 @@ Did you mean one of these?
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-03 01:03:38] local.ERROR: Call to undefined method App\Models\Parking::computeCharge() {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\parking\\index.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Call to undefined method App\\Models\\Parking::computeCharge() at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php:67)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php(36): Illuminate\\Database\\Eloquent\\Model::throwBadMethodCallException()
@@ -8016,7 +8016,7 @@ Did you mean one of these?
 #57 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #58 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #59 {main}
-"} 
+"}
 [2024-03-03 01:08:43] local.ERROR: syntax error, unexpected identifier "ppublic", expecting "function" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected identifier \"ppublic\", expecting \"function\" at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\ParkingController.php:34)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\composer\\ClassLoader.php(427): Composer\\Autoload\\{closure}()
@@ -8050,7 +8050,7 @@ Did you mean one of these?
 #28 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #29 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #30 {main}
-"} 
+"}
 [2024-03-03 01:34:48] local.ERROR: Undefined variable $adminChart {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\admin\\dashboard.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $adminChart at C:\\Users\\Adrian\\Thesis\\resources\\views\\admin\\dashboard.blade.php:8)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -8170,11 +8170,11 @@ Did you mean one of these?
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-03 01:35:26] local.ERROR: Cannot use App\Http\Controllers\TenantController as TenantController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\TenantController as TenantController because the name is already in use at C:\\Users\\Adrian\\Thesis\\routes\\web.php:7)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-03 01:51:49] local.ERROR: Route [admin.analytics] not defined. {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\header\\headers.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [admin.analytics] not defined. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route()
@@ -8310,7 +8310,7 @@ Did you mean one of these?
 #62 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #63 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #64 {main}
-"} 
+"}
 [2024-03-03 05:52:13] local.ERROR: View [parking.index] not found. {"userId":1,"exception":"[object] (InvalidArgumentException(code: 0): View [parking.index] not found. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths()
@@ -8367,7 +8367,7 @@ Did you mean one of these?
 #51 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #52 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #53 {main}
-"} 
+"}
 [2024-03-03 14:48:34] local.ERROR: syntax error, unexpected token "public", expecting end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"public\", expecting end of file at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\ParkingController.php:77)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\composer\\ClassLoader.php(427): Composer\\Autoload\\{closure}()
@@ -8401,7 +8401,7 @@ Did you mean one of these?
 #28 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #29 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #30 {main}
-"} 
+"}
 [2024-03-03 14:49:01] local.ERROR: Call to a member function format() on string {"userId":1,"exception":"[object] (Error(code: 0): Call to a member function format() on string at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\ParkingController.php:66)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\ParkingController->update()
@@ -8454,7 +8454,7 @@ Did you mean one of these?
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-03 14:58:03] local.ERROR: Route [parking.clear] not defined. {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\admin\\parking.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [parking.clear] not defined. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route()
@@ -8578,7 +8578,7 @@ Did you mean one of these?
 #56 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #58 {main}
-"} 
+"}
 [2024-03-03 14:59:46] local.ERROR: Route [parking.clear] not defined. {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\admin\\parking.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [parking.clear] not defined. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route()
@@ -8702,7 +8702,7 @@ Did you mean one of these?
 #56 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #58 {main}
-"} 
+"}
 [2024-03-03 15:00:03] local.ERROR: Undefined variable $parkings {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\parking\\delete.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $parkings at C:\\Users\\Adrian\\Thesis\\resources\\views\\parking\\delete.blade.php:31)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -8826,7 +8826,7 @@ Did you mean one of these?
 #56 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #58 {main}
-"} 
+"}
 [2024-03-03 15:09:57] local.ERROR: Class "App\Http\Controllers\Parking" not found {"userId":1,"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\Parking\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\AdminController.php:100)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AdminController->index()
@@ -8879,7 +8879,7 @@ Did you mean one of these?
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-03 15:10:03] local.ERROR: Class "App\Http\Controllers\Parking" not found {"userId":1,"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\Parking\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\AdminController.php:100)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AdminController->index()
@@ -8932,7 +8932,7 @@ Did you mean one of these?
 #47 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-03 15:33:46] local.ERROR: Route [stalls.index] not defined. {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\user\\index.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [stalls.index] not defined. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route()
@@ -9052,7 +9052,7 @@ Did you mean one of these?
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-03 15:42:11] local.ERROR: Route [user.filter] not defined. {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\user\\index.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [user.filter] not defined. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route()
@@ -9172,7 +9172,7 @@ Did you mean one of these?
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-03 15:42:27] local.ERROR: Method App\Http\Controllers\StallController::indexFilter does not exist. {"userId":2,"exception":"[object] (BadMethodCallException(code: 0): Method App\\Http\\Controllers\\StallController::indexFilter does not exist. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php:68)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): Illuminate\\Routing\\Controller->__call()
@@ -9223,7 +9223,7 @@ Did you mean one of these?
 #45 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #46 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #47 {main}
-"} 
+"}
 [2024-03-03 15:42:45] local.ERROR: Method App\Http\Controllers\StallController::indexFilter does not exist. {"userId":2,"exception":"[object] (BadMethodCallException(code: 0): Method App\\Http\\Controllers\\StallController::indexFilter does not exist. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php:68)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): Illuminate\\Routing\\Controller->__call()
@@ -9274,7 +9274,7 @@ Did you mean one of these?
 #45 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #46 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #47 {main}
-"} 
+"}
 [2024-03-03 15:54:11] local.ERROR: Route [tenant.stall] not defined. {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\header\\header.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [tenant.stall] not defined. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route()
@@ -9410,7 +9410,7 @@ Did you mean one of these?
 #62 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #63 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #64 {main}
-"} 
+"}
 [2024-03-03 16:21:01] local.ERROR: Undefined variable $slot {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\layouts\\app.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $slot at C:\\Users\\Adrian\\Thesis\\resources\\views\\layouts\\app.blade.php:32)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -9546,7 +9546,7 @@ Did you mean one of these?
 #62 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #63 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #64 {main}
-"} 
+"}
 [2024-03-03 16:21:47] local.ERROR: Undefined variable $slot {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\layouts\\app.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $slot at C:\\Users\\Adrian\\Thesis\\resources\\views\\layouts\\app.blade.php:32)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -9682,7 +9682,7 @@ Did you mean one of these?
 #62 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #63 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #64 {main}
-"} 
+"}
 [2024-03-03 16:27:41] local.ERROR: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'amount_to_be_paid' at row 1 (Connection: mysql, SQL: insert into `payments` (`amount_to_be_paid`, `amount_paid`, `balance`, `remarks`, `tenant_id`, `updated_at`, `created_at`) values (1249291372013, 0, 1249291372013, none, 10, 2024-03-03 16:27:41, 2024-03-03 16:27:41)) {"userId":2,"exception":"[object] (Illuminate\\Database\\QueryException(code: 22003): SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'amount_to_be_paid' at row 1 (Connection: mysql, SQL: insert into `payments` (`amount_to_be_paid`, `amount_paid`, `balance`, `remarks`, `tenant_id`, `updated_at`, `created_at`) values (1249291372013, 0, 1249291372013, none, 10, 2024-03-03 16:27:41, 2024-03-03 16:27:41)) at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -9808,7 +9808,7 @@ Did you mean one of these?
 #58 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #59 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #60 {main}
-"} 
+"}
 [2024-03-03 16:33:15] local.ERROR: Method App\Http\Controllers\TenantController::store does not exist. {"userId":2,"exception":"[object] (BadMethodCallException(code: 0): Method App\\Http\\Controllers\\TenantController::store does not exist. at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php:68)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): Illuminate\\Routing\\Controller->__call()
@@ -9859,7 +9859,7 @@ Did you mean one of these?
 #45 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #46 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #47 {main}
-"} 
+"}
 [2024-03-03 16:33:58] local.ERROR: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'amount_to_be_paid' at row 1 (Connection: mysql, SQL: insert into `payments` (`amount_to_be_paid`, `amount_paid`, `balance`, `remarks`, `tenant_id`, `updated_at`, `created_at`) values (1249291372013, 0, 1249291372013, none, 11, 2024-03-03 16:33:58, 2024-03-03 16:33:58)) {"userId":2,"exception":"[object] (Illuminate\\Database\\QueryException(code: 22003): SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'amount_to_be_paid' at row 1 (Connection: mysql, SQL: insert into `payments` (`amount_to_be_paid`, `amount_paid`, `balance`, `remarks`, `tenant_id`, `updated_at`, `created_at`) values (1249291372013, 0, 1249291372013, none, 11, 2024-03-03 16:33:58, 2024-03-03 16:33:58)) at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -9985,7 +9985,7 @@ Did you mean one of these?
 #58 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #59 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #60 {main}
-"} 
+"}
 [2024-03-03 16:35:38] local.ERROR: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'amount_to_be_paid' at row 1 (Connection: mysql, SQL: insert into `payments` (`amount_to_be_paid`, `amount_paid`, `balance`, `remarks`, `tenant_id`, `updated_at`, `created_at`) values (2131231, 0, 2131231, none, 12, 2024-03-03 16:35:38, 2024-03-03 16:35:38)) {"userId":2,"exception":"[object] (Illuminate\\Database\\QueryException(code: 22003): SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'amount_to_be_paid' at row 1 (Connection: mysql, SQL: insert into `payments` (`amount_to_be_paid`, `amount_paid`, `balance`, `remarks`, `tenant_id`, `updated_at`, `created_at`) values (2131231, 0, 2131231, none, 12, 2024-03-03 16:35:38, 2024-03-03 16:35:38)) at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -10111,7 +10111,7 @@ Did you mean one of these?
 #58 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #59 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #60 {main}
-"} 
+"}
 [2024-03-03 16:50:56] local.ERROR: syntax error, unexpected token "return" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"return\" at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\UserController.php:53)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\composer\\ClassLoader.php(427): Composer\\Autoload\\{closure}()
@@ -10145,7 +10145,7 @@ Did you mean one of these?
 #28 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #29 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #30 {main}
-"} 
+"}
 [2024-03-03 17:16:11] local.ERROR: Access to undeclared static property Illuminate\Support\Facades\Auth::$users {"userId":2,"exception":"[object] (Error(code: 0): Access to undeclared static property Illuminate\\Support\\Facades\\Auth::$users at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\UserController.php:45)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\UserController->mystall()
@@ -10196,7 +10196,7 @@ Did you mean one of these?
 #45 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #46 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #47 {main}
-"} 
+"}
 [2024-03-03 17:21:56] local.ERROR: Attempt to read property "stalls" on true {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\user\\stall.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Attempt to read property \"stalls\" on true at C:\\Users\\Adrian\\Thesis\\resources\\views\\user\\stall.blade.php:19)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -10316,7 +10316,7 @@ Did you mean one of these?
 #54 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-03 17:25:42] local.ERROR: Call to undefined method Illuminate\Database\Eloquent\Relations\BelongsToMany::isEmpty() {"view":{"view":"C:\\Users\\Adrian\\Thesis\\resources\\views\\user\\stall.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Call to undefined method Illuminate\\Database\\Eloquent\\Relations\\BelongsToMany::isEmpty() at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php:67)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php(36): Illuminate\\Database\\Eloquent\\Relations\\Relation::throwBadMethodCallException()
@@ -10440,11 +10440,11 @@ Did you mean one of these?
 #56 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #58 {main}
-"} 
+"}
 [2024-03-03 18:02:18] local.ERROR: Trait "App\Http\Controllers\App\Models\Stall" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"App\\Http\\Controllers\\App\\Models\\Stall\" not found at C:\\Users\\Adrian\\Thesis\\app\\Http\\Controllers\\StallController.php:13)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-03 18:03:24] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'img_path' doesn't have a default value (Connection: mysql, SQL: insert into `stalls` (`codename`, `description`, `status`, `rental_rate`, `updated_at`, `created_at`) values (Adrian, cute, FOR RENT, 12345, 2024-03-03 18:03:24, 2024-03-03 18:03:24)) {"userId":1,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'img_path' doesn't have a default value (Connection: mysql, SQL: insert into `stalls` (`codename`, `description`, `status`, `rental_rate`, `updated_at`, `created_at`) values (Adrian, cute, FOR RENT, 12345, 2024-03-03 18:03:24, 2024-03-03 18:03:24)) at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -10572,7 +10572,7 @@ Did you mean one of these?
 #59 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #60 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #61 {main}
-"} 
+"}
 [2024-03-03 18:04:36] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'img_path' doesn't have a default value (Connection: mysql, SQL: insert into `stalls` (`codename`, `description`, `status`, `rental_rate`, `updated_at`, `created_at`) values (Adrian, dawdawgawf, MAY KADATE NA, 32713, 2024-03-03 18:04:36, 2024-03-03 18:04:36)) {"userId":1,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'img_path' doesn't have a default value (Connection: mysql, SQL: insert into `stalls` (`codename`, `description`, `status`, `rental_rate`, `updated_at`, `created_at`) values (Adrian, dawdawgawf, MAY KADATE NA, 32713, 2024-03-03 18:04:36, 2024-03-03 18:04:36)) at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -10700,7 +10700,7 @@ Did you mean one of these?
 #59 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #60 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #61 {main}
-"} 
+"}
 [2024-03-03 18:08:25] local.ERROR: Array to string conversion (Connection: mysql, SQL: insert into `stalls` (`codename`, `description`, `status`, `rental_rate`, `img_path`, `updated_at`, `created_at`) values (multiple, multiple, multiple, 123, ?, 2024-03-03 18:08:25, 2024-03-03 18:08:25)) {"userId":1,"exception":"[object] (Illuminate\\Database\\QueryException(code: 0): Array to string conversion (Connection: mysql, SQL: insert into `stalls` (`codename`, `description`, `status`, `rental_rate`, `img_path`, `updated_at`, `created_at`) values (multiple, multiple, multiple, 123, ?, 2024-03-03 18:08:25, 2024-03-03 18:08:25)) at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -10831,7 +10831,7 @@ Did you mean one of these?
 #62 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #63 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #64 {main}
-"} 
+"}
 [2024-03-03 18:08:38] local.ERROR: Array to string conversion (Connection: mysql, SQL: insert into `stalls` (`codename`, `description`, `status`, `rental_rate`, `img_path`, `updated_at`, `created_at`) values (multiple, multiple, multiple, 123, ?, 2024-03-03 18:08:38, 2024-03-03 18:08:38)) {"userId":1,"exception":"[object] (Illuminate\\Database\\QueryException(code: 0): Array to string conversion (Connection: mysql, SQL: insert into `stalls` (`codename`, `description`, `status`, `rental_rate`, `img_path`, `updated_at`, `created_at`) values (multiple, multiple, multiple, 123, ?, 2024-03-03 18:08:38, 2024-03-03 18:08:38)) at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -10962,7 +10962,7 @@ Did you mean one of these?
 #62 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #63 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #64 {main}
-"} 
+"}
 [2024-03-03 18:11:01] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'image_paths' in 'field list' (Connection: mysql, SQL: insert into `stalls` (`codename`, `description`, `status`, `rental_rate`, `image_paths`, `updated_at`, `created_at`) values (multiple, multiple, multiple, 12345, public/images/wa2gRsBDY8ZdjZkf8M2AS6aSp7TgtmipDHBGRdn5.jpg,public/images/8BEAkvHFwNecEbJuEjXRG4cKAbtW9TM7uMAQRzbP.jpg,public/images/xtjwBrhadMHm4QsL7HQl59TTWvxWyMeFr3Fo8KEL.jpg, 2024-03-03 18:11:01, 2024-03-03 18:11:01)) {"userId":1,"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'image_paths' in 'field list' (Connection: mysql, SQL: insert into `stalls` (`codename`, `description`, `status`, `rental_rate`, `image_paths`, `updated_at`, `created_at`) values (multiple, multiple, multiple, 12345, public/images/wa2gRsBDY8ZdjZkf8M2AS6aSp7TgtmipDHBGRdn5.jpg,public/images/8BEAkvHFwNecEbJuEjXRG4cKAbtW9TM7uMAQRzbP.jpg,public/images/xtjwBrhadMHm4QsL7HQl59TTWvxWyMeFr3Fo8KEL.jpg, 2024-03-03 18:11:01, 2024-03-03 18:11:01)) at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -11090,7 +11090,7 @@ Did you mean one of these?
 #59 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #60 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #61 {main}
-"} 
+"}
 [2024-03-03 18:15:53] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'image_paths' in 'field list' (Connection: mysql, SQL: insert into `stalls` (`codename`, `description`, `status`, `rental_rate`, `image_paths`, `updated_at`, `created_at`) values (Adrian, cute, multiple, 124923, ?, 2024-03-03 18:15:53, 2024-03-03 18:15:53)) {"userId":1,"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'image_paths' in 'field list' (Connection: mysql, SQL: insert into `stalls` (`codename`, `description`, `status`, `rental_rate`, `image_paths`, `updated_at`, `created_at`) values (Adrian, cute, multiple, 124923, ?, 2024-03-03 18:15:53, 2024-03-03 18:15:53)) at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -11218,7 +11218,7 @@ Did you mean one of these?
 #59 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #60 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #61 {main}
-"} 
+"}
 [2024-03-03 18:16:15] local.ERROR: Array to string conversion (Connection: mysql, SQL: insert into `stalls` (`codename`, `description`, `status`, `rental_rate`, `img_path`, `updated_at`, `created_at`) values (Adrian, cute, multiple, 124923, ?, 2024-03-03 18:16:15, 2024-03-03 18:16:15)) {"userId":1,"exception":"[object] (Illuminate\\Database\\QueryException(code: 0): Array to string conversion (Connection: mysql, SQL: insert into `stalls` (`codename`, `description`, `status`, `rental_rate`, `img_path`, `updated_at`, `created_at`) values (Adrian, cute, multiple, 124923, ?, 2024-03-03 18:16:15, 2024-03-03 18:16:15)) at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -11349,7 +11349,7 @@ Did you mean one of these?
 #62 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #63 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #64 {main}
-"} 
+"}
 [2024-03-03 18:16:47] local.ERROR: Array to string conversion (Connection: mysql, SQL: insert into `stalls` (`codename`, `description`, `status`, `rental_rate`, `img_path`, `updated_at`, `created_at`) values (Adrian, cute, multiple, 124923, ?, 2024-03-03 18:16:47, 2024-03-03 18:16:47)) {"userId":1,"exception":"[object] (Illuminate\\Database\\QueryException(code: 0): Array to string conversion (Connection: mysql, SQL: insert into `stalls` (`codename`, `description`, `status`, `rental_rate`, `img_path`, `updated_at`, `created_at`) values (Adrian, cute, multiple, 124923, ?, 2024-03-03 18:16:47, 2024-03-03 18:16:47)) at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -11480,7 +11480,7 @@ Did you mean one of these?
 #62 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #63 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #64 {main}
-"} 
+"}
 [2024-03-03 18:17:07] local.ERROR: Array to string conversion (Connection: mysql, SQL: insert into `stalls` (`codename`, `description`, `status`, `rental_rate`, `img_path`, `updated_at`, `created_at`) values (Adrian, dawdawgawf, MAY KADATE NA, 32713, ?, 2024-03-03 18:17:07, 2024-03-03 18:17:07)) {"userId":1,"exception":"[object] (Illuminate\\Database\\QueryException(code: 0): Array to string conversion (Connection: mysql, SQL: insert into `stalls` (`codename`, `description`, `status`, `rental_rate`, `img_path`, `updated_at`, `created_at`) values (Adrian, dawdawgawf, MAY KADATE NA, 32713, ?, 2024-03-03 18:17:07, 2024-03-03 18:17:07)) at C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -11611,7 +11611,7 @@ Did you mean one of these?
 #62 C:\\Users\\Adrian\\Thesis\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #63 C:\\Users\\Adrian\\Thesis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #64 {main}
-"} 
+"}
 [2024-03-05 14:03:53] local.ERROR: Cannot end a section without first starting one. {"view":{"view":"C:\\Users\\Gwyn\\Desktop\\VSC\\project\\resources\\views\\user\\dashboard.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1755493678 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#268</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
@@ -11733,7 +11733,7 @@ Did you mean one of these?
 #53 C:\\Users\\Gwyn\\Desktop\\VSC\\project\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #54 C:\\Users\\Gwyn\\Desktop\\VSC\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\Gwyn\\\\D...')
 #55 {main}
-"} 
+"}
 [2024-03-05 14:12:53] local.ERROR: View [layout.navigation] not found. {"view":{"view":"C:\\Users\\Gwyn\\Desktop\\VSC\\project\\resources\\views\\layouts\\app.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-245681896 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#268</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
@@ -12084,7 +12084,7 @@ Did you mean one of these?
 #64 C:\\Users\\Gwyn\\Desktop\\VSC\\project\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #65 C:\\Users\\Gwyn\\Desktop\\VSC\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\Gwyn\\\\D...')
 #66 {main}
-"} 
+"}
 [2024-03-05 14:34:24] local.ERROR: Route [profile] not defined. {"view":{"view":"C:\\Users\\Gwyn\\Desktop\\VSC\\project\\resources\\views\\layouts\\app.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-677292468 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#268</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
@@ -12421,7 +12421,7 @@ Did you mean one of these?
 #63 C:\\Users\\Gwyn\\Desktop\\VSC\\project\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #64 C:\\Users\\Gwyn\\Desktop\\VSC\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\Gwyn\\\\D...')
 #65 {main}
-"} 
+"}
 [2024-03-05 19:27:18] local.ERROR: Command "optimize\" is not defined.
 
 Did you mean one of these?
@@ -12437,7 +12437,7 @@ Did you mean one of these?
 #2 C:\\Users\\Gwyn\\Desktop\\VSC\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #3 C:\\Users\\Gwyn\\Desktop\\VSC\\project\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #4 {main}
-"} 
+"}
 [2024-03-05 23:17:40] local.ERROR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (Connection: mysql, SQL: select * from `users` where `email` = skythekid211@gmail.com limit 1) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (Connection: mysql, SQL: select * from `users` where `email` = skythekid211@gmail.com limit 1) at C:\\Users\\Gwyn\\Desktop\\VSC\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Gwyn\\Desktop\\VSC\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(983): Illuminate\\Database\\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
@@ -12584,7 +12584,7 @@ Did you mean one of these?
 #73 C:\\Users\\Gwyn\\Desktop\\VSC\\project\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #74 C:\\Users\\Gwyn\\Desktop\\VSC\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\Gwyn\\\\D...')
 #75 {main}
-"} 
+"}
 [2024-03-06 12:08:21] local.ERROR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (Connection: mysql, SQL: select * from `users` where `email` = skythekid211@gmail.com limit 1) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (Connection: mysql, SQL: select * from `users` where `email` = skythekid211@gmail.com limit 1) at C:\\Users\\Gwyn\\Desktop\\VSC\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Gwyn\\Desktop\\VSC\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(983): Illuminate\\Database\\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
@@ -12731,7 +12731,7 @@ Did you mean one of these?
 #73 C:\\Users\\Gwyn\\Desktop\\VSC\\project\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #74 C:\\Users\\Gwyn\\Desktop\\VSC\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\Gwyn\\\\D...')
 #75 {main}
-"} 
+"}
 [2024-03-06 12:18:18] local.ERROR: View [headers.header] not found. {"view":{"view":"C:\\Users\\Gwyn\\Desktop\\VSC\\project\\resources\\views\\user\\dashboard.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-145022898 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#268</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
@@ -12857,55 +12857,55 @@ Did you mean one of these?
 #55 C:\\Users\\Gwyn\\Desktop\\VSC\\project\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #56 C:\\Users\\Gwyn\\Desktop\\VSC\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\Gwyn\\\\D...')
 #57 {main}
-"} 
+"}
 [2024-03-06 19:37:01] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:37:21] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:37:29] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:37:32] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:37:44] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:37:51] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:38:32] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:38:39] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:38:54] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:39:12] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:39:21] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:39:32] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:39:41] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (Connection: mysql, SQL: drop table if exists `stalls`) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (Connection: mysql, SQL: drop table if exists `stalls`) at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -13005,75 +13005,75 @@ Did you mean one of these?
 #45 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run()
 #46 C:\\Users\\Adrian\\beyond-the-stalls-main\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #47 {main}
-"} 
+"}
 [2024-03-06 19:40:32] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:41:32] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:42:17] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:42:27] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:42:32] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:42:38] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:42:48] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:42:59] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:43:18] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:43:32] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:43:38] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:43:53] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:44:01] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:44:32] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:45:32] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:46:32] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:47:32] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:48:28] local.ERROR: syntax error, unexpected token "return", expecting "function" {"userId":1,"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\composer\\ClassLoader.php(427): Composer\\Autoload\\{closure}()
@@ -13133,15 +13133,15 @@ Did you mean one of these?
 #54 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-06 19:48:32] local.ERROR: syntax error, unexpected token "return", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"function\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:49:03] local.ERROR: syntax error, unexpected token "return", expecting "(" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\", expecting \"(\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Tenant.php:23)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-06 19:53:47] local.ERROR: View [layouts.createstall] not found. {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\stall\\create.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): View [layouts.createstall] not found. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths()
@@ -13267,7 +13267,7 @@ Did you mean one of these?
 #57 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #58 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #59 {main}
-"} 
+"}
 [2024-03-06 20:10:05] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'stall_id' doesn't have a default value (Connection: mysql, SQL: insert into `tenants` (`user_id`, `age`, `contact_no`, `address`, `leaseagreement`, `status`, `img_path`, `updated_at`, `created_at`) values (2, 19, 9875656, 14 Eucalyptus St., leaseagreement/1st - 4th Year Students.pdf, pending, images/5.jpg, 2024-03-06 20:10:05, 2024-03-06 20:10:05)) {"userId":2,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'stall_id' doesn't have a default value (Connection: mysql, SQL: insert into `tenants` (`user_id`, `age`, `contact_no`, `address`, `leaseagreement`, `status`, `img_path`, `updated_at`, `created_at`) values (2, 19, 9875656, 14 Eucalyptus St., leaseagreement/1st - 4th Year Students.pdf, pending, images/5.jpg, 2024-03-06 20:10:05, 2024-03-06 20:10:05)) at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -13391,7 +13391,7 @@ Did you mean one of these?
 #57 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #58 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #59 {main}
-"} 
+"}
 [2024-03-06 20:21:49] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stalls.tenant_id' in 'where clause' (Connection: mysql, SQL: select * from `stalls` where `stalls`.`tenant_id` = 1 and `stalls`.`tenant_id` is not null limit 1) {"userId":2,"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stalls.tenant_id' in 'where clause' (Connection: mysql, SQL: select * from `stalls` where `stalls`.`tenant_id` = 1 and `stalls`.`tenant_id` is not null limit 1) at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -13525,7 +13525,7 @@ Did you mean one of these?
 #62 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #63 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #64 {main}
-"} 
+"}
 [2024-03-06 20:24:17] local.ERROR: Method App\Http\Controllers\UserController::mystall does not exist. {"userId":2,"exception":"[object] (BadMethodCallException(code: 0): Method App\\Http\\Controllers\\UserController::mystall does not exist. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php:68)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): Illuminate\\Routing\\Controller->__call()
@@ -13576,7 +13576,7 @@ Did you mean one of these?
 #45 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #46 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #47 {main}
-"} 
+"}
 [2024-03-06 20:25:04] local.ERROR: Call to a member function isEmpty() on null {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\user\\stall.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Call to a member function isEmpty() on null at C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\user\\stall.blade.php:16)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): require()
@@ -13692,7 +13692,7 @@ Did you mean one of these?
 #52 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #53 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #54 {main}
-"} 
+"}
 [2024-03-06 20:29:46] local.ERROR: View [your_view_name] not found. {"userId":2,"exception":"[object] (InvalidArgumentException(code: 0): View [your_view_name] not found. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths()
@@ -13747,7 +13747,7 @@ Did you mean one of these?
 #49 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #50 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #51 {main}
-"} 
+"}
 [2024-03-06 20:30:04] local.ERROR: Undefined variable $stalls {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\user\\stall.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $stalls at C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\user\\stall.blade.php:16)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -13867,7 +13867,7 @@ Did you mean one of these?
 #54 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-06 20:52:45] local.ERROR: Undefined variable $payment {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\user\\stall.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $payment at C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\user\\stall.blade.php:24)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -13987,7 +13987,7 @@ Did you mean one of these?
 #54 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-06 21:02:32] local.ERROR: Class "App\Http\Controllers\Payment" not found {"userId":1,"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\Payment\" not found at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Http\\Controllers\\StallController.php:63)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\StallController->update()
@@ -14040,7 +14040,7 @@ Did you mean one of these?
 #47 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-06 21:06:06] local.ERROR: View [no_tenant_found] not found. {"userId":1,"exception":"[object] (InvalidArgumentException(code: 0): View [no_tenant_found] not found. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths()
@@ -14095,7 +14095,7 @@ Did you mean one of these?
 #49 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #50 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #51 {main}
-"} 
+"}
 [2024-03-06 21:10:14] local.ERROR: View [no_tenant_found] not found. {"userId":1,"exception":"[object] (InvalidArgumentException(code: 0): View [no_tenant_found] not found. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths()
@@ -14150,7 +14150,7 @@ Did you mean one of these?
 #49 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #50 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #51 {main}
-"} 
+"}
 [2024-03-06 21:12:47] local.ERROR: View [no_tenant_found] not found. {"userId":1,"exception":"[object] (InvalidArgumentException(code: 0): View [no_tenant_found] not found. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths()
@@ -14205,7 +14205,7 @@ Did you mean one of these?
 #49 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #50 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #51 {main}
-"} 
+"}
 [2024-03-06 21:14:15] local.ERROR: Call to undefined relationship [stalls] on model [App\Models\Tenant]. {"userId":1,"exception":"[object] (Illuminate\\Database\\Eloquent\\RelationNotFoundException(code: 0): Call to undefined relationship [stalls] on model [App\\Models\\Tenant]. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\RelationNotFoundException.php:35)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(805): Illuminate\\Database\\Eloquent\\RelationNotFoundException::make()
@@ -14265,7 +14265,7 @@ Did you mean one of these?
 #54 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-06 21:21:10] local.ERROR: View [header.headers] not found. {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\admin\\stall.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): View [header.headers] not found. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths()
@@ -14391,7 +14391,7 @@ Did you mean one of these?
 #57 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #58 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #59 {main}
-"} 
+"}
 [2024-03-06 21:23:30] local.ERROR: View [no_tenant_found] not found. {"userId":1,"exception":"[object] (InvalidArgumentException(code: 0): View [no_tenant_found] not found. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths()
@@ -14446,7 +14446,7 @@ Did you mean one of these?
 #49 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #50 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #51 {main}
-"} 
+"}
 [2024-03-06 21:35:57] local.ERROR: Unable to locate a class or view for component [try-layout]. {"userId":1,"exception":"[object] (InvalidArgumentException(code: 0): Unable to locate a class or view for component [try-layout]. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\ComponentTagCompiler.php:311)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\ComponentTagCompiler.php(235): Illuminate\\View\\Compilers\\ComponentTagCompiler->componentClass()
@@ -14510,7 +14510,7 @@ Did you mean one of these?
 #58 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #59 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #60 {main}
-"} 
+"}
 [2024-03-06 21:37:41] local.ERROR: Unable to locate a class or view for component [try-layout]. {"userId":1,"exception":"[object] (InvalidArgumentException(code: 0): Unable to locate a class or view for component [try-layout]. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\ComponentTagCompiler.php:311)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\ComponentTagCompiler.php(235): Illuminate\\View\\Compilers\\ComponentTagCompiler->componentClass()
@@ -14574,7 +14574,7 @@ Did you mean one of these?
 #58 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #59 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #60 {main}
-"} 
+"}
 [2024-03-06 21:38:48] local.ERROR: Unable to locate a class or view for component [try-layout]. {"userId":1,"exception":"[object] (InvalidArgumentException(code: 0): Unable to locate a class or view for component [try-layout]. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\ComponentTagCompiler.php:311)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\ComponentTagCompiler.php(235): Illuminate\\View\\Compilers\\ComponentTagCompiler->componentClass()
@@ -14638,7 +14638,7 @@ Did you mean one of these?
 #58 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #59 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #60 {main}
-"} 
+"}
 [2024-03-06 21:45:52] local.ERROR: Unable to locate a class or view for component [try-layout]. {"userId":1,"exception":"[object] (InvalidArgumentException(code: 0): Unable to locate a class or view for component [try-layout]. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\ComponentTagCompiler.php:311)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\ComponentTagCompiler.php(235): Illuminate\\View\\Compilers\\ComponentTagCompiler->componentClass()
@@ -14702,7 +14702,7 @@ Did you mean one of these?
 #58 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #59 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #60 {main}
-"} 
+"}
 [2024-03-06 21:49:13] local.ERROR: View [header.header] not found. {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\user\\dashboard.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): View [header.header] not found. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths()
@@ -14824,7 +14824,7 @@ Did you mean one of these?
 #55 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #56 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #57 {main}
-"} 
+"}
 [2024-03-06 21:49:14] local.ERROR: View [header.header] not found. {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\user\\dashboard.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): View [header.header] not found. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths()
@@ -14946,7 +14946,7 @@ Did you mean one of these?
 #55 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #56 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #57 {main}
-"} 
+"}
 [2024-03-06 21:56:13] local.ERROR: Call to undefined relationship [stalls] on model [App\Models\Tenant]. {"userId":1,"exception":"[object] (Illuminate\\Database\\Eloquent\\RelationNotFoundException(code: 0): Call to undefined relationship [stalls] on model [App\\Models\\Tenant]. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\RelationNotFoundException.php:35)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(805): Illuminate\\Database\\Eloquent\\RelationNotFoundException::make()
@@ -15006,7 +15006,7 @@ Did you mean one of these?
 #54 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-06 22:27:00] local.ERROR: View [no_tenant_found] not found. {"userId":2,"exception":"[object] (InvalidArgumentException(code: 0): View [no_tenant_found] not found. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths()
@@ -15061,7 +15061,7 @@ Did you mean one of these?
 #49 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #50 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #51 {main}
-"} 
+"}
 [2024-03-06 22:27:20] local.ERROR: View [no_tenant_found] not found. {"userId":2,"exception":"[object] (InvalidArgumentException(code: 0): View [no_tenant_found] not found. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths()
@@ -15116,7 +15116,7 @@ Did you mean one of these?
 #49 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #50 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #51 {main}
-"} 
+"}
 [2024-03-06 22:35:09] local.ERROR: View [no_tenant_found] not found. {"userId":2,"exception":"[object] (InvalidArgumentException(code: 0): View [no_tenant_found] not found. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths()
@@ -15171,7 +15171,7 @@ Did you mean one of these?
 #49 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #50 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #51 {main}
-"} 
+"}
 [2024-03-06 22:38:01] local.ERROR: View [no_tenant_found] not found. {"userId":2,"exception":"[object] (InvalidArgumentException(code: 0): View [no_tenant_found] not found. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths()
@@ -15226,7 +15226,7 @@ Did you mean one of these?
 #49 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #50 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #51 {main}
-"} 
+"}
 [2024-03-06 22:59:22] local.ERROR: Call to undefined method App\Models\User::tenants() {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\user\\index.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Call to undefined method App\\Models\\User::tenants() at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php:67)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php(36): Illuminate\\Database\\Eloquent\\Model::throwBadMethodCallException()
@@ -15348,7 +15348,7 @@ Did you mean one of these?
 #55 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #56 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #57 {main}
-"} 
+"}
 [2024-03-06 23:01:16] local.ERROR: Target class [TenantController] does not exist. {"userId":1,"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [TenantController] does not exist. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build()
@@ -15461,7 +15461,7 @@ Did you mean one of these?
 #51 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #52 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #53 {main}
-"} 
+"}
 [2024-03-06 23:02:34] local.ERROR: Target class [TenantController] does not exist. {"userId":1,"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [TenantController] does not exist. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build()
@@ -15574,7 +15574,7 @@ Did you mean one of these?
 #51 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #52 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #53 {main}
-"} 
+"}
 [2024-03-06 23:02:48] local.ERROR: Target class [TenantController] does not exist. {"userId":1,"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [TenantController] does not exist. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build()
@@ -15687,7 +15687,7 @@ Did you mean one of these?
 #51 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #52 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #53 {main}
-"} 
+"}
 [2024-03-06 23:03:45] local.ERROR: Target class [TenantController] does not exist. {"userId":1,"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [TenantController] does not exist. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build()
@@ -15800,7 +15800,7 @@ Did you mean one of these?
 #51 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #52 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #53 {main}
-"} 
+"}
 [2024-03-06 23:04:27] local.ERROR: Target class [TenantController] does not exist. {"userId":1,"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [TenantController] does not exist. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build()
@@ -15913,7 +15913,7 @@ Did you mean one of these?
 #51 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #52 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #53 {main}
-"} 
+"}
 [2024-03-06 23:04:33] local.ERROR: Target class [TenantController] does not exist. {"userId":1,"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [TenantController] does not exist. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build()
@@ -16026,7 +16026,7 @@ Did you mean one of these?
 #51 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #52 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #53 {main}
-"} 
+"}
 [2024-03-07 08:29:47] local.ERROR: Route [about] not defined. {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\layouts\\app.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [about] not defined. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route()
@@ -16164,7 +16164,7 @@ Did you mean one of these?
 #63 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #64 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #65 {main}
-"} 
+"}
 [2024-03-07 08:36:37] local.ERROR: Route [about] not defined. {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\layouts\\app.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [about] not defined. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route()
@@ -16302,7 +16302,7 @@ Did you mean one of these?
 #63 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #64 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #65 {main}
-"} 
+"}
 [2024-03-07 08:51:12] local.ERROR: syntax error, unexpected double-quote mark, expecting ")" {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\user\\dashboard.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): syntax error, unexpected double-quote mark, expecting \")\" at C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\user\\dashboard.blade.php:54)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(125): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
@@ -16416,7 +16416,7 @@ Did you mean one of these?
 #51 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #52 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #53 {main}
-"} 
+"}
 [2024-03-07 08:53:29] local.ERROR: Method App\Http\Controllers\UserController::mystall does not exist. {"userId":2,"exception":"[object] (BadMethodCallException(code: 0): Method App\\Http\\Controllers\\UserController::mystall does not exist. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php:68)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): Illuminate\\Routing\\Controller->__call()
@@ -16467,7 +16467,7 @@ Did you mean one of these?
 #45 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #46 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #47 {main}
-"} 
+"}
 [2024-03-07 08:58:05] local.ERROR: Route [tenant.concern] not defined. {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\tenant\\stall.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [tenant.concern] not defined. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route()
@@ -16587,7 +16587,7 @@ Did you mean one of these?
 #54 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-07 08:58:19] local.ERROR: Route [tenant.concern] not defined. {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\tenant\\stall.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [tenant.concern] not defined. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route()
@@ -16707,7 +16707,7 @@ Did you mean one of these?
 #54 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-07 08:58:30] local.ERROR: Route [tenant.concern] not defined. {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\tenant\\stall.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [tenant.concern] not defined. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route()
@@ -16827,7 +16827,7 @@ Did you mean one of these?
 #54 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-07 09:07:16] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`ayokona`.`tenants`, CONSTRAINT `tenants_stall_id_foreign` FOREIGN KEY (`stall_id`) REFERENCES `stalls` (`id`)) (Connection: mysql, SQL: delete from `stalls` where `id` = 1) {"userId":1,"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`ayokona`.`tenants`, CONSTRAINT `tenants_stall_id_foreign` FOREIGN KEY (`stall_id`) REFERENCES `stalls` (`id`)) (Connection: mysql, SQL: delete from `stalls` where `id` = 1) at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -16949,7 +16949,7 @@ Did you mean one of these?
 #56 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #58 {main}
-"} 
+"}
 [2024-03-07 09:07:42] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`ayokona`.`tenants`, CONSTRAINT `tenants_stall_id_foreign` FOREIGN KEY (`stall_id`) REFERENCES `stalls` (`id`)) (Connection: mysql, SQL: delete from `stalls` where `id` = 1) {"userId":1,"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`ayokona`.`tenants`, CONSTRAINT `tenants_stall_id_foreign` FOREIGN KEY (`stall_id`) REFERENCES `stalls` (`id`)) (Connection: mysql, SQL: delete from `stalls` where `id` = 1) at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -17071,7 +17071,7 @@ Did you mean one of these?
 #56 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #57 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #58 {main}
-"} 
+"}
 [2024-03-07 09:10:31] local.ERROR: Attempt to read property "usertype" on null {"userId":1,"exception":"[object] (ErrorException(code: 0): Attempt to read property \"usertype\" on null at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Http\\Middleware\\Admin.php:18)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -17117,7 +17117,7 @@ Did you mean one of these?
 #40 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #41 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #42 {main}
-"} 
+"}
 [2024-03-07 09:11:19] local.ERROR: Route [about] not defined. {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\layouts\\app.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [about] not defined. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route()
@@ -17255,7 +17255,7 @@ Did you mean one of these?
 #63 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #64 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #65 {main}
-"} 
+"}
 [2024-03-07 09:34:42] local.ERROR: View [header.header] not found. {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\stall\\edit.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): View [header.header] not found. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths()
@@ -17377,7 +17377,7 @@ Did you mean one of these?
 #55 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #56 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #57 {main}
-"} 
+"}
 [2024-03-07 10:32:49] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'age' cannot be null (Connection: mysql, SQL: update `tenants` set `age` = ?, `contact_no` = ?, `address` = ?, `status` = accepted, `tenants`.`updated_at` = 2024-03-07 10:32:49 where `id` = 1) {"userId":1,"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'age' cannot be null (Connection: mysql, SQL: update `tenants` set `age` = ?, `contact_no` = ?, `address` = ?, `status` = accepted, `tenants`.`updated_at` = 2024-03-07 10:32:49 where `id` = 1) at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -17497,7 +17497,7 @@ Did you mean one of these?
 #55 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #56 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #57 {main}
-"} 
+"}
 [2024-03-07 11:41:31] local.ERROR: Target class [FeedbackController] does not exist. {"userId":2,"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [FeedbackController] does not exist. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build()
@@ -17606,7 +17606,7 @@ Did you mean one of these?
 #49 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #50 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #51 {main}
-"} 
+"}
 [2024-03-07 11:44:55] local.ERROR: Target class [FeedbackController] does not exist. {"userId":2,"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [FeedbackController] does not exist. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build()
@@ -17715,15 +17715,15 @@ Did you mean one of these?
 #49 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #50 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #51 {main}
-"} 
+"}
 [2024-03-07 11:47:17] local.ERROR: syntax error, unexpected token "}", expecting variable {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting variable at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Feedback.php:13)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-07 11:47:17] local.ERROR: syntax error, unexpected token "}", expecting variable {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting variable at C:\\Users\\Adrian\\beyond-the-stalls-main\\app\\Models\\Feedback.php:13)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2024-03-07 11:53:45] local.ERROR: Target class [FeedbackController] does not exist. {"userId":2,"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [FeedbackController] does not exist. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build()
@@ -17832,7 +17832,7 @@ Did you mean one of these?
 #49 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #50 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #51 {main}
-"} 
+"}
 [2024-03-07 11:54:12] local.ERROR: Target class [FeedbackController] does not exist. {"userId":2,"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [FeedbackController] does not exist. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build()
@@ -17941,7 +17941,7 @@ Did you mean one of these?
 #49 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #50 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #51 {main}
-"} 
+"}
 [2024-03-07 11:55:10] local.ERROR: Target class [FeedbackController] does not exist. {"userId":2,"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [FeedbackController] does not exist. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build()
@@ -18050,7 +18050,7 @@ Did you mean one of these?
 #49 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #50 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #51 {main}
-"} 
+"}
 [2024-03-07 11:55:28] local.ERROR: Route [feedback.store] not defined. {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\feedback\\create.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [feedback.store] not defined. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route()
@@ -18170,7 +18170,7 @@ Did you mean one of these?
 #54 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-07 11:56:21] local.ERROR: Route [feedback.store] not defined. {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\feedback\\create.blade.php","data":[]},"userId":2,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [feedback.store] not defined. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route()
@@ -18290,7 +18290,7 @@ Did you mean one of these?
 #54 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
+"}
 [2024-03-07 11:58:43] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'img_path' doesn't have a default value (Connection: mysql, SQL: insert into `feedback` (`tenant_id`, `reason`, `suggestion`, `updated_at`, `created_at`) values (1, Sira yung ilaw sa stall, Pwede nyo ba ayusin, 2024-03-07 11:58:43, 2024-03-07 11:58:43)) {"userId":2,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'img_path' doesn't have a default value (Connection: mysql, SQL: insert into `feedback` (`tenant_id`, `reason`, `suggestion`, `updated_at`, `created_at`) values (1, Sira yung ilaw sa stall, Pwede nyo ba ayusin, 2024-03-07 11:58:43, 2024-03-07 11:58:43)) at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -18414,7 +18414,7 @@ Did you mean one of these?
 #57 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #58 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #59 {main}
-"} 
+"}
 [2024-03-07 11:58:53] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'img_path' doesn't have a default value (Connection: mysql, SQL: insert into `feedback` (`tenant_id`, `reason`, `suggestion`, `updated_at`, `created_at`) values (1, Sira yung ilaw sa stall, Pwede nyo ba ayusin, 2024-03-07 11:58:53, 2024-03-07 11:58:53)) {"userId":2,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'img_path' doesn't have a default value (Connection: mysql, SQL: insert into `feedback` (`tenant_id`, `reason`, `suggestion`, `updated_at`, `created_at`) values (1, Sira yung ilaw sa stall, Pwede nyo ba ayusin, 2024-03-07 11:58:53, 2024-03-07 11:58:53)) at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -18538,7 +18538,7 @@ Did you mean one of these?
 #57 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #58 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #59 {main}
-"} 
+"}
 [2024-03-07 12:09:48] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'img_path' doesn't have a default value (Connection: mysql, SQL: insert into `feedback` (`tenant_id`, `reason`, `suggestion`, `updated_at`, `created_at`) values (1, Sira yung ilaw sa stall, Pwede nyo ba ayusin, 2024-03-07 12:09:48, 2024-03-07 12:09:48)) {"userId":2,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'img_path' doesn't have a default value (Connection: mysql, SQL: insert into `feedback` (`tenant_id`, `reason`, `suggestion`, `updated_at`, `created_at`) values (1, Sira yung ilaw sa stall, Pwede nyo ba ayusin, 2024-03-07 12:09:48, 2024-03-07 12:09:48)) at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback()
@@ -18662,7 +18662,7 @@ Did you mean one of these?
 #57 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #58 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #59 {main}
-"} 
+"}
 [2024-03-07 12:32:23] local.ERROR: Route [user.stall] not defined. {"userId":2,"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [user.stall] not defined. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Redirector.php(154): Illuminate\\Routing\\UrlGenerator->route()
@@ -18715,7 +18715,7 @@ Did you mean one of these?
 #47 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #49 {main}
-"} 
+"}
 [2024-03-07 12:54:39] local.ERROR: Route [feedback] not defined. {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\layouts\\app.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [feedback] not defined. at C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route()
@@ -18853,7 +18853,7 @@ Did you mean one of these?
 #63 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #64 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #65 {main}
-"} 
+"}
 [2024-03-07 12:54:52] local.ERROR: Undefined variable $slot {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\layouts\\app.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $slot at C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\layouts\\app.blade.php:95)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -18989,7 +18989,7 @@ Did you mean one of these?
 #62 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #63 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #64 {main}
-"} 
+"}
 [2024-03-07 13:20:07] local.ERROR: Undefined variable $feedbacks {"view":{"view":"C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\feedback\\index.blade.php","data":[]},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $feedbacks at C:\\Users\\Adrian\\beyond-the-stalls-main\\resources\\views\\feedback\\index.blade.php:21)
 [stacktrace]
 #0 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -19109,16 +19109,4 @@ Did you mean one of these?
 #54 C:\\Users\\Adrian\\beyond-the-stalls-main\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
 #55 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
-"} 
-[2024-03-10 09:53:20] local.ERROR: Class "Barryvdh\DomPDF\ServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Barryvdh\\DomPDF\\ServiceProvider\" not found at C:\\Users\\Adrian\\bts-final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:206)
-[stacktrace]
-#0 C:\\Users\\Adrian\\bts-final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider()
-#1 C:\\Users\\Adrian\\bts-final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest()
-#2 C:\\Users\\Adrian\\bts-final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(765): Illuminate\\Foundation\\ProviderRepository->load()
-#3 C:\\Users\\Adrian\\bts-final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
-#4 C:\\Users\\Adrian\\bts-final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
-#5 C:\\Users\\Adrian\\bts-final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
-#6 C:\\Users\\Adrian\\bts-final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
-#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
-#8 {main}
-"} 
+"}
