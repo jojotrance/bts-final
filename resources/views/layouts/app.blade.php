@@ -42,28 +42,27 @@
                                 <a class="nav-link" href="{{ route('payment.index') }}" style="color: #ffffff;">
                                     <i class="fas fa-money-bill"></i> Payment
                                 </a>
-                                <a class="nav-link" href="{{ route('feedback') }}" style="color: #ffffff;">
+                                <a class="nav-link" href="{{ route('inventory.index') }}" style="color: #ffffff;">
                                     <i class="fas fa-list-alt"></i> Inventory
                                 </a>
                                 <a class="nav-link" href="{{ route('parking.index') }}" style="color: #ffffff;">
                                     <i class="fas fa-car"></i> Parking
                                 </a>
-                                <a class="nav-link" href="{{ route('feedback') }}" style="color: #ffffff;">
+                                <a class="nav-link" href="{{ route('payment.index') }}" style="color: #ffffff;">
                                     <i class="fas fa-exclamation-circle"></i> Concern
                                 </a>
                             </div>
                         </div>
-                    @elseif(Auth::user()->usertype=='user')
+                    @else
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav ml-auto">
+                            <!-- Tenant Links -->
                             <a class="nav-link" href="{{ route('tenant.stall') }}" style="color: #ffffff;">
                                 <i class="fas fa-warehouse"></i> My Stall
                             </a>
+                            <!-- About and Contact Us Links -->
                             <a class="nav-link" href="{{ route('tenant.stall') }}" style="color: #ffffff;">
                                 <i class="fas fa-question"></i> About
-                            </a>
-                            <a class="nav-link" href="{{ route('revenue.index') }}" style="color: #ffffff;">
-                                <i class="fas fa-phone"></i> Revenue
                             </a>
                         </div>
                     </div>

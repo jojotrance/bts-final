@@ -11,6 +11,7 @@ use App\Http\Controllers\ParkingController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ReportController;
 use App\Http\Controllers\RevenueController;
+use App\Http\Controllers\InventoryController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -63,7 +64,8 @@ Route::middleware(['admin'])->group(function () {
     Route::get('/parking/create', [ParkingController::class, 'create'])->name('parking.create');
     Route::delete('/parking/deleteSelected', [ParkingController::class, 'deleteSelected'])->name('parking.deleteSelected');
 
-    //Route::get('/generate-analytics', [AdminController::class, 'generateAnalytics'])->name('generate.analytics');
+    Route::get('/inventory', [InventoryController::class, 'index'])->name('inventory.index');
+    Route::get('/generate-analytics', [AdminController::class, 'generateAnalytics'])->name('generate.analytics');
 
 });
 
