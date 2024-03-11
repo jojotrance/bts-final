@@ -9,6 +9,8 @@ use App\Models\Parking;
 use Illuminate\Support\Facades\Auth;
 use DB;
 use App\Charts\AdminChart;
+use View;
+use PDF;
 use App\Models\Tenant;
 
 class AdminController extends Controller
@@ -107,4 +109,78 @@ class AdminController extends Controller
         return view('admin.analytics', compact('tenantByAddressChart', 'stallStatusesChart', 'countChart', 'parkingChargesChart'));
     }
 
+    // public function generateAnalytics()
+    // {
+    //     $userCount = User::count();
+    //     $tenantCount = Tenant::count();
+
+    //     $tenantByAddress = Tenant::whereNotNull('address')
+    //         ->groupBy('address')
+    //         ->orderBy('total')
+    //         ->pluck(DB::raw('count(address) as total'), 'address')
+    //         ->all();
+
+    //     $tenantByAddressChart = new AdminChart();
+    //     $tenantByAddressChart->labels(array_keys($tenantByAddress))
+    //         ->dataset('Tenant Demographics by Address', 'bar', array_values($tenantByAddress))
+    //         ->backgroundColor(['#7158e2', '#3ae374', '#ff3838','#111111']);
+
+    //     $stallStatuses = Stall::groupBy('status')
+    //         ->orderBy('total')
+    //         ->pluck(DB::raw('count(status) as total'), 'status')
+    //         ->all();
+
+    //     $stallStatusesChart = new AdminChart();
+    //     $stallStatusesChart->labels(array_keys($stallStatuses))
+    //         ->dataset('Stall Statuses', 'pie', array_values($stallStatuses))
+    //         ->backgroundColor(['#ff5733', '#ffc300', '#36a2eb']);
+
+    //     $parkingChargesByDay = Parking::select(DB::raw('DATE(parking_start) as day'), DB::raw('SUM(charge) as total_charge'))
+    //         ->groupBy(DB::raw('DATE(parking_start)'))
+    //         ->orderBy(DB::raw('DATE(parking_start)'))
+    //         ->get();
+
+    //     $parkingLabels = [];
+    //     $parkingCharges = [];
+
+    //     foreach ($parkingChargesByDay as $parkingCharge) {
+    //         $parkingLabels[] = $parkingCharge->day;
+    //         $parkingCharges[] = $parkingCharge->total_charge;
+    //     }
+
+    //     $parkingChargesChart = new AdminChart();
+    //     $parkingChargesChart->labels($parkingLabels)
+    //         ->dataset('Parking Charges by Day', 'line', $parkingCharges)
+    //         ->backgroundColor(['rgba(54, 162, 235, 0.2)'])
+    //         ->color(['rgb(54, 162, 235)']);
+
+    //     $countChart = new AdminChart();
+    //     $countChart->labels(['Users', 'Tenants'])
+    //         ->dataset('User vs Tenant Count', 'doughnut', [$userCount, $tenantCount])
+    //         ->backgroundColor(['#ff3838', '#fbbd08']);
+
+    //     $countChart->options([
+    //         'responsive' => true,
+    //         'legend' => ['display' => true],
+    //         'tooltips' => ['enabled' => true],
+    //         'aspectRatio' => 1,
+    //         'scales' => [
+    //             'yAxes' => [
+    //                 [
+    //                     'display' => true,
+    //                 ],
+    //             ],
+    //             'xAxes' => [
+    //                 [
+    //                     'gridLines' => ['display' => false],
+    //                     'display' => true,
+    //                 ],
+    //             ],
+    //         ],
+    //     ]);
+
+    //     $html = View::make('admin.analytics', compact('tenantByAddressChart', 'stallStatusesChart', 'countChart', 'parkingChargesChart', 'userCount', 'tenantCount'));
+    //     $pdf = PDF::loadHTML($html)->setPaper('a4', 'landscape');
+    //     return $pdf->download('document.pdf');
+    // }
 }

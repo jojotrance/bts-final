@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('plate_number');
             $table->string('parking_start');
             $table->string('parking_end')->nullable();
+            $table->string('parking_difference');
             $table->string('charge')->nullable();
             $table->timestamps();
         });

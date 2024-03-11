@@ -17,7 +17,7 @@ class Feedback extends Model
         'img_path',
     ];
 
-    public function tenantfeedback() {
+    public function tenant() {
         return $this->belongsTo(Tenant::class);
     }
 }

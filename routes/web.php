@@ -9,6 +9,8 @@ use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\FeedbackController;
 use App\Http\Controllers\ParkingController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ReportController;
+use App\Http\Controllers\RevenueController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -60,11 +62,21 @@ Route::middleware(['admin'])->group(function () {
     Route::put('/parkings/{id}', [ParkingController::class, 'update'])->name('parking.update');
     Route::get('/parking/create', [ParkingController::class, 'create'])->name('parking.create');
     Route::delete('/parking/deleteSelected', [ParkingController::class, 'deleteSelected'])->name('parking.deleteSelected');
+
+    //Route::get('/generate-analytics', [AdminController::class, 'generateAnalytics'])->name('generate.analytics');
+
 });
 
 Route::middleware('auth')->group(function () {
-    Route::get('/concern', [FeedbackController::class, 'index'])->name('feedback');
-    Route::get('/concern/create', [FeedbackController::class, 'create'])->name('tenant.feedback');
+    Route::get('/concern', [FeedbackController::class, 'index'])->name('feedback.index');
+    Route::post('/concern/store', [FeedbackController::class, 'store'])->name('feedback.create');
+
+    Route::get('/revenue', [RevenueController::class, 'index'])->name('revenue.index');
+    Route::get('/revenue/create', [RevenueController::class, 'create'])->name('revenue.create');
+    Route::post('/revenue/store', [RevenueController::class, 'store'])->name('revenue.store');
+    Route::get('/revenue/{id}/edit', [RevenueController::class, 'edit'])->name('revenue.edit');
+    Route::post('/revenue/{id}/update', [RevenueController::class, 'update'])->name('revenue.update');
+
     Route::post('/concern/store', [FeedbackController::class, 'store'])->name('feedback.store');
     Route::get('/user', [UserController::class, 'indexFilter'])->name('user.filter');
     Route::get('/mystall', [TenantController::class, 'mystall'])->name('tenant.stall');

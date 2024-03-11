@@ -11,13 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('revenues', function (Blueprint $table) {
-            $table->id();
-            $table->string('category');
-            $table->double('investment');
-            $table->double('net_income')->nullable();
-            $table->double('return_of_investment')->nullable();
-            $table->string('notes');
+        Schema::create('inventories', function (Blueprint $table) {
+            $table->unsignedBigInteger('stall_id');
+            $table->foreign('stall_id')->references('id')->on('stalls')->onDelete('cascade');
+            $table->string('leaseagreement')->nullable();
             $table->timestamps();
         });
     }
@@ -27,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('revenues');
+        Schema::dropIfExists('inventories');
     }
 };

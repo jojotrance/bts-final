@@ -19110,3 +19110,7 @@ Did you mean one of these?
 #55 C:\\Users\\Adrian\\beyond-the-stalls-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
 #56 {main}
 "}
+[2024-03-11 15:43:22] local.ERROR: Maximum execution time of 30 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 30 seconds exceeded at C:\\Users\\Adrian\\bts-final\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php:44)
+[stacktrace]
+#0 {main}
+"} 

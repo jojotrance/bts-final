@@ -30,7 +30,7 @@ class ParkingController extends Controller
 
         $parking = new Parking();
         $parking->plate_number = $request->plate_number;
-        $parking->parking_start = now(); 
+        $parking->parking_start = now();
 
         $parking->save();
         return redirect()->route('parking.index')->with('success', 'Plate number added successfully.');
@@ -46,7 +46,7 @@ class ParkingController extends Controller
 
             $hourlyRate = 10;
             $charge = ceil($durationInMinutes / 60) * $hourlyRate;
-            $parking->charge = max($charge, 10); //
+            $parking->charge = max($charge, 10);
 
             $parking->save();
 

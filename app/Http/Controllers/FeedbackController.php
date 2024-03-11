@@ -47,5 +47,4 @@ class FeedbackController extends Controller
         $feedback->save();
         return redirect()->route('tenant.stall')->with('success', 'Concern submitted.');
     }
-
 }

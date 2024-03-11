@@ -30,7 +30,7 @@ class StallController extends Controller
             'description' => 'required|string',
             'status' => 'required|string',
             'rental_rate' => 'required|numeric',
-            'img_path.*' => 'required|image|mimes:jpg,bmp,png|max:2048', // Adjust max file size as needed
+            'img_path.*' => 'required|image|mimes:jpg,bmp,png|max:2048', 
         ]);
 
         $stall = new Stall();
@@ -80,12 +80,12 @@ class StallController extends Controller
                 'rental_rate' => $request->rental_rate
             ]);
         }
-        return redirect()->route('stall.index');
+        return redirect()->route('stall.index')->with('success', 'Stall updated successfully.');
     }
 
     public function destroy(string $id)
     {
         Stall::destroy($id);
-        return Redirect::to('stall');
+        return Redirect::to('stall')->with('success', 'Stall deleted successfully.');
     }
 }

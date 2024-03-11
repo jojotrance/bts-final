@@ -5,13 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Revenue extends Model
+class Inventory extends Model
 {
     use HasFactory;
-    protected $table = 'revenue';
+    protected $table = 'inventories';
 
     protected $fillable = [
-        'tenant_id',
         'category',
         'investment',
         'net_income',
@@ -19,7 +18,7 @@ class Revenue extends Model
         'notes',
     ];
 
-    public function tenant() {
-        return $this->belongsTo(Tenant::class);
+    public function stall() {
+        return $this->belongsTo(Stall::class);
     }
 }

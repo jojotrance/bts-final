@@ -23,4 +23,8 @@ class Stall extends Model
     {
         return $this->hasOne(Tenant::class);
     }
+
+    public function inventory(){
+        return $this->hasMany(Inventory::class);
+    }
 }

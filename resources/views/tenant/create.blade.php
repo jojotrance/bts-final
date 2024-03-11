@@ -3,10 +3,18 @@
 <x-app-layout>
     <x-slot name="header">
     </x-slot>
+
+    @if(session('success'))
+    <div class="container mt-2">
+        <div class="alert alert-success">
+            {{ session('success') }}
+        </div>
+    </div>
+@endif
     <div class="container mt-4">
         <h1>Application for Rental</h1>
         <div class="container">
-            <p>Hi {{ Auth::user()->name }}, please fill out the necessary information:</p>
+            <h3>Hi {{ Auth::user()->name }}, please fill out the necessary information:</h3>
             <div class="form-group">
                 <a href="{{ Storage::url('public/images/lease-agreement.docx') }}" target="_blank">
                     <i class="fas fa-file-download"></i> Download Lease Agreement
