@@ -10,8 +10,8 @@ use App\Http\Controllers\FeedbackController;
 use App\Http\Controllers\ParkingController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ReportController;
-use App\Http\Controllers\RevenueController;
 use App\Http\Controllers\InventoryController;
+use App\Http\Controllers\FinancialController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,13 +31,8 @@ Route::get('/', function () {
 
 Route::get('/home', [HomeController::class, 'index'])->middleware('auth')->name('home');
 
-// Route::get('/user/dashboard', [UserController::class, 'index'])->middleware('auth')->name('user.index');
-// Route::get('/tenant/apply', [TenantController::class, 'create'])->middleware('auth')->name('tenant.create');
-// Route::post('/tenants/store/{stallId}', [TenantController::class, 'store'])->name('tenant.store');
-
 Route::middleware(['admin'])->group(function () {
     Route::get('/analytics', [AdminController::class, 'index'])->name('admin.analytics');
-    // OKAY NA RIN TO
     Route::get('/stall', [StallController::class, 'index'])->name('stall.index');
     Route::get('/stall/create', [StallController::class, 'create'])->name('stall.create');
     Route::post('/stall/store', [StallController::class, 'store'])->name('stall.store');
@@ -49,14 +44,12 @@ Route::middleware(['admin'])->group(function () {
     Route::get('/tenant/{id}/edit', [TenantController::class, 'edit'])->name('tenant.edit');
     Route::put('/tenant/{id}', [TenantController::class, 'update'])->name('tenant.update');
 
-    //OK NA TO
     Route::get('/payment', [PaymentController::class, 'index'])->name('payment.index');
     Route::get('/payment/create', [PaymentController::class, 'create'])->name('payment.create');
     Route::post('/payment/store', [PaymentController::class, 'store'])->name('payment.store');
     Route::get('/payment/{id}/edit', [PaymentController::class, 'edit'])->name('payment.edit');
     Route::put('/payment/{payment}', [PaymentController::class, 'update'])->name('payment.update');
 
-    //FOR PARKING
     Route::get('/parking', [ParkingController::class, 'index'])->name('parking.index');
     Route::get('/clear', [ParkingController::class, 'clear'])->name('parking.clear');
     Route::post('/parking', [ParkingController::class, 'store'])->name('parking.store');
@@ -70,8 +63,12 @@ Route::middleware(['admin'])->group(function () {
 });
 
 Route::middleware('auth')->group(function () {
+    Route::get('/generate-financial', [FinancialController::class, 'generateFinancials'])->name('generate.financial');
+    Route::get('/financial', [FinancialController::class, 'index'])->name('financial.index');
+    Route::get('/financial/create', [FinancialController::class, 'create'])->name('financial.create');
+    Route::post('/financial/store', [FinancialController::class, 'store'])->name('financial.store');
     Route::get('/concern', [FeedbackController::class, 'index'])->name('feedback.index');
-    Route::post('/concern/store', [FeedbackController::class, 'store'])->name('feedback.create');
+    Route::post('/concern/store', [FeedbackController::class, 'store'])->name('feedback.store');
 
     Route::get('/revenue', [RevenueController::class, 'index'])->name('revenue.index');
     Route::get('/revenue/create', [RevenueController::class, 'create'])->name('revenue.create');

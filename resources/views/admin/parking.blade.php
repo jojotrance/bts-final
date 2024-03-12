@@ -54,6 +54,7 @@ table thead {
                                 <th scope="col">Plate Number</th>
                                 <th scope="col">Parking Start</th>
                                 <th scope="col">Parking End</th>
+                                <th scope="col">Parking Hours</th>
                                 <th scope="col">Charge</th>
                                 <th scope="col">Action</th> <!-- New column for the action -->
                             </tr>
@@ -64,6 +65,7 @@ table thead {
                                 <td>{{ $parking->plate_number }}</td>
                                 <td>{{ $parking->parking_start }}</td>
                                 <td>{{ $parking->parking_end }}</td>
+                                <td>{{ $parking->parking_difference }}</td>
                                 <td>{{ $parking->charge }}</td>
                                 <td>
                                     @if (!$parking->parking_end)

@@ -16,6 +16,28 @@
         .custom-delete-button{
             background-color: red !important;
         }
+        
+        table thead {
+            background-color: #3a5a40;
+            color: white;
+        }
+
+        body {
+            background-image: url('/images/430837379_333900309104849_4293786303333364672_n.png');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: 100%;
+            height: auto;
+            background: #e0e2e4;
+            background: radial-gradient(white 30%, #e0e2e4 70%);
+        }
     </style>
 </head>
 <body>

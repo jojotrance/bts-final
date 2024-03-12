@@ -60,6 +60,9 @@
                             <a class="nav-link" href="{{ route('tenant.stall') }}" style="color: #ffffff;">
                                 <i class="fas fa-warehouse"></i> My Stall
                             </a>
+                            <a class="nav-link" href="{{ route('financial.index') }}" style="color: #ffffff;">
+                                <i class="fas fa-warehouse"></i> Record
+                            </a>
                             <!-- About and Contact Us Links -->
                             <a class="nav-link" href="{{ route('tenant.stall') }}" style="color: #ffffff;">
                                 <i class="fas fa-question"></i> About

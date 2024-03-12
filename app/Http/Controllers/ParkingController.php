@@ -44,9 +44,12 @@ class ParkingController extends Controller
             $parking->parking_end = now();
             $durationInMinutes = $parking->parking_end->diffInMinutes($parking->parking_start);
 
-            $hourlyRate = 10;
+            $hourlyRate = 15;
             $charge = ceil($durationInMinutes / 60) * $hourlyRate;
-            $parking->charge = max($charge, 10);
+            $parking->charge = max($charge, 30);
+
+            $parkingDurationHours = $durationInMinutes / 60;
+            $parking->parking_difference = $parkingDurationHours;
 
             $parking->save();
 

@@ -55,7 +55,7 @@
             <p><strong>Description:</strong> {{ $stall->description }}</p>
             <p><strong>Status:</strong> {{ $stall->status }}</p>
             <p><strong>Rental Rate:</strong> {{ $stall->rental_rate }}</p>
-            <a href="{{ route('tenant.feedback') }}" class="btn btn-primary">Submit a concern</a>
+            {{-- <a href="{{ route('tenant.feedback') }}" class="btn btn-primary">Submit a concern</a> --}}
         </div>
     </div>
     @else
@@ -78,6 +78,5 @@
         <p>No payment information available for this tenant.</p>
     </div>
     @endif
-
 </x-app-layout>
 @endsection

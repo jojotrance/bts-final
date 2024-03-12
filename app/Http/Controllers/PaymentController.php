@@ -48,5 +48,4 @@ class PaymentController extends Controller
             return back()->withInput()->with('error', 'An error occurred while updating the payment.');
         }
     }
-
 }

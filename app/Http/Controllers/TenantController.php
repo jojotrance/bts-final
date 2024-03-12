@@ -75,32 +75,6 @@ class TenantController extends Controller
         return view('tenant.edit', compact('tenant'));
     }
 
-
-    //kailangan kapag na-accept na sya yung status ng stall is magiging occupied
-    // public function update(Request $request, $id)
-    // {
-    //     $tenant = Tenant::findOrFail($id);
-
-    //     if ($request->status === 'accepted' && $tenant->status !== 'accepted') {
-    //         $rentalRate = Stall::find($tenant->stall_id)->rental_rate;
-    //         $payment = Payment::updateOrCreate(
-    //             ['tenant_id' => $tenant->id],
-    //             [
-    //                 'amount_to_be_paid' => $rentalRate,
-    //                 'amount_paid' => 0,
-    //                 'balance' => $rentalRate,
-    //             ]
-    //         );
-    //     } elseif ($request->status !== 'accepted' && $tenant->status === 'accepted') {
-    //         $tenant->payment()->delete();
-    //     }
-
-    //     $tenant->status = $request->status;
-    //     $tenant->save();
-
-    //     return redirect()->route('tenant.index')->with('success', 'Tenant updated successfully.');
-    // }
-
     public function update(Request $request, $id)
     {
         $tenant = Tenant::findOrFail($id);
