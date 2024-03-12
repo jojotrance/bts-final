@@ -11,7 +11,7 @@
 </head>
     <style>
     body {
-        background-image: url('/images/430837379_333900309104849_4293786303333364672_n.png');
+        background-image: url('/images/430837379_333900309104849_4293786303333364672_n.jpg');
             background-size: cover;
             background-position: center;
             height: 100vh;
@@ -112,7 +112,7 @@
         color: #fff;
     }
     .custom-card {
-            height: 400px;
+            height: 500px;
             margin-bottom: 20px;
     }
     .custom-card img {

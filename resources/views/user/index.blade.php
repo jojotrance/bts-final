@@ -6,22 +6,25 @@
     <div class="container">
         <div class="row justify-content-center mt-5">
             <div class="col-md-6">
-                <form action="{{ route('user.filter') }}" method="GET" class="d-flex justify-content-between align-items-center">
-                <div class="form-check">
-    <input class="form-check-input" type="radio" name="status" id="rented" value="Rented">
-    <label class="form-check-label" for="rented"><strong>Rented</strong></label>
-</div>
-<div class="form-check">
-    <input class="form-check-input" type="radio" name="status" id="for-rent" value="For Rent">
-    <label class="form-check-label" for="for-rent"><strong>For Rent</strong></label>
-</div>
-<div class="form-check">
-    <input class="form-check-input" type="radio" name="status" id="maintenance" value="Maintenance">
-    <label class="form-check-label" for="maintenance"><strong>Maintenance</strong></label>
-</div>
-    
-                    <button type="submit" class="btn btn-primary">Apply Filter</button>
-                </form>
+                <div class="card">
+                    <div class="card-body">
+                        <form action="{{ route('user.filter') }}" method="GET" class="d-flex justify-content-between align-items-center">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="status" id="rented" value="Rented">
+                                <label class="form-check-label" for="rented"><strong>Rented</strong></label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="status" id="for-rent" value="For Rent">
+                                <label class="form-check-label" for="for-rent"><strong>For Rent</strong></label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="status" id="maintenance" value="Maintenance">
+                                <label class="form-check-label" for="maintenance"><strong>Maintenance</strong></label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Apply Filter</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row justify-content-center mt-3">
@@ -29,7 +32,7 @@
             <div class="col-md-3 col-sm-12 my-3">
                 <div class="card shadow custom-card">
                     <div class="card-body">
-                        <img src="{{ url($stall->img_path) }}" alt="stall image" class="img-fluid mb-3">
+                       <center> <img src="{{ url($stall->img_path) }}" alt="stall image" class="img-fluid mb-3"> </center>
                         <h5 class="card-title">{{ $stall->codename }}</h5>
                         <h6 class="card-subtitle mb-2 text-muted">{{ $stall->description }}</h6>
                         <p class="card-text">Status: <strong>{{ $stall->status }}</strong></p>
