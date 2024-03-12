@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
 <style>
 body {
-    background-image: url('/images/430837379_333900309104849_4293786303333364672_n.png');
+    background-image: url('/images/430837379_333900309104849_4293786303333364672_n.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
