@@ -13,12 +13,14 @@
     }
 
     .container {
-        max-width: 100%; /* Use full width */
+        max-width: 100%;
         margin: 0 auto;
         padding: 20px;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        height: 100vh; /* Set container height to full viewport height */
     }
 
     .image-section {
@@ -33,7 +35,7 @@
     .image-section img {
         display: block;
         margin: 0 auto 20px;
-        max-width: 100%; /* Use full width */
+        max-width: 100%;
         height: auto;
         border-radius: 5px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -50,29 +52,29 @@
 
     .about-section h1 {
         margin-top: 0;
-        font-size: 36px; /* Increased font size */
+        font-size: 36px;
         font-weight: 700;
     }
 
     .about-section p {
         margin-bottom: 20px;
         line-height: 1.6;
-        font-size: 20px; /* Increased font size */
+        font-size: 20px;
     }
 
     .button-section {
-        text-align: center;
-        margin-top: 20px;
+        margin-top: auto;
+        text-align: right;
     }
 
     .button-section button {
-        padding: 15px 30px; /* Increased button padding */
+        padding: 15px 30px;
         background-color: #2ecc71;
         color: white;
         border: none;
         border-radius: 5px;
         cursor: pointer;
-        font-size: 24px; /* Increased button font size */
+        font-size: 24px;
         transition: background-color 0.3s;
     }
 
@@ -84,12 +86,11 @@
 <body>
 <div class="container">
     <div class="image-section">
-        <img src="{{ asset('images/market.png') }}" alt="stall image" width="600" height="600"> <!-- Increased image width and height -->
+        <img src="{{ asset('images/market.png') }}" alt="stall image" width="600" height="600">
     </div>
     <div class="about-section">
-        <Center><h1>Taguig People's Market</h1>
+        <h1>Taguig People's Market</h1>
         <p>It is a marketplace located in Lower Bicutan, Taguig City. A wide variety of products are sold here, from school and office supplies to plasticware to clothes to fresh produce. This place is a go-to for all individuals to find needs, whether it be for everyday life or one-time use.</p>
-</center>
     </div>
     <div class="button-section">
         <button onclick="location.href='{{ route('user.index') }}'">
