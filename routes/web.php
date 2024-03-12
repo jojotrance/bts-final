@@ -81,6 +81,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/mystall', [TenantController::class, 'mystall'])->name('tenant.stall');
     Route::get('/tenant/apply', [TenantController::class, 'create'])->name('tenant.create');
     Route::post('/tenants/store/{stallId}', [TenantController::class, 'store'])->name('tenant.store');
+    Route::get('/tenant/about', [TenantController::class, 'about'])->name('tenant.about');
 
     Route::get('/user/dashboard', [UserController::class, 'index'])->name('user.index');
 

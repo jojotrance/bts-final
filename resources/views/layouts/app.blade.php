@@ -64,7 +64,7 @@
                                 <i class="fas fa-warehouse"></i> Record
                             </a>
                             <!-- About and Contact Us Links -->
-                            <a class="nav-link" href="{{ route('tenant.stall') }}" style="color: #ffffff;">
+                            <a class="nav-link" href="{{ route('tenant.about') }}" style="color: #ffffff;">
                                 <i class="fas fa-question"></i> About
                             </a>
                         </div>

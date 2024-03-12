@@ -124,4 +124,9 @@ class TenantController extends Controller
             return view('tenant.pending');
         }
     }
+
+    public function about()
+    {
+        return view('tenant.about');
+    }
 }
