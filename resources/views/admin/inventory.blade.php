@@ -38,15 +38,15 @@
             </tr>
         </thead>
         <tbody>
-            @foreach ($tenants as $tenant)
+            @foreach ($inventories as $inventory)
             <tr>
                 <td>
-                    {{ $tenant->stall->codename }}
+                    {{ $inventory->codename }}
                 </td>
-                <td><img src="{{ url($tenant->img_path) }}" alt="tenant image" width="50" height="50"></td>
-                <td>{{ $tenant->user->name }}</td>
-                <td>{{ $tenant->stall->status }}</td>
-                <td><a href="{{ url($tenant->leaseagreement) }}" target="_blank">View Agreement</a></td>
+                <td><img src="{{ url($inventory->image_path) }}" alt="stall image" width="50" height="50"></td>
+                <td>{{ $inventory->tenant->user->name }}</td>
+                <td>{{ $inventory->status }}</td>
+                <td><a href="{{ url($inventory->tenant->leaseagreement) }}" target="_blank">View Agreement</a></td>
             </tr>
             @endforeach
         </tbody>

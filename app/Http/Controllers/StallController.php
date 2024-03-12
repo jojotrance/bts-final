@@ -7,6 +7,7 @@ use Storage;
 use View;
 use Validator;
 use App\Models\Stall;
+use App\Models\Tenant;
 use Redirect;
 
 class StallController extends Controller
@@ -30,7 +31,7 @@ class StallController extends Controller
             'description' => 'required|string',
             'status' => 'required|string',
             'rental_rate' => 'required|numeric',
-            'img_path.*' => 'required|image|mimes:jpg,bmp,png|max:2048', 
+            'img_path.*' => 'required|image|mimes:jpg,bmp,png|max:2048',
         ]);
 
         $stall = new Stall();
@@ -87,5 +88,11 @@ class StallController extends Controller
     {
         Stall::destroy($id);
         return Redirect::to('stall')->with('success', 'Stall deleted successfully.');
+    }
+
+    public function showInventory()
+    {
+        $inventories = Stall::with('tenant')->get();
+        return view('admin.inventory', compact('inventories'));
     }
 }

@@ -64,7 +64,7 @@ Route::middleware(['admin'])->group(function () {
     Route::get('/parking/create', [ParkingController::class, 'create'])->name('parking.create');
     Route::delete('/parking/deleteSelected', [ParkingController::class, 'deleteSelected'])->name('parking.deleteSelected');
 
-    Route::get('/inventory', [InventoryController::class, 'index'])->name('inventory.index');
+    Route::get('/inventory', [StallController::class, 'showInventory'])->name('admin.inventory');
     Route::get('/generate-analytics', [AdminController::class, 'generateAnalytics'])->name('generate.analytics');
 
 });

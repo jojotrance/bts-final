@@ -42,7 +42,7 @@
                                 <a class="nav-link" href="{{ route('payment.index') }}" style="color: #ffffff;">
                                     <i class="fas fa-money-bill"></i> Payment
                                 </a>
-                                <a class="nav-link" href="{{ route('inventory.index') }}" style="color: #ffffff;">
+                                <a class="nav-link" href="{{ route('admin.inventory') }}" style="color: #ffffff;">
                                     <i class="fas fa-list-alt"></i> Inventory
                                 </a>
                                 <a class="nav-link" href="{{ route('parking.index') }}" style="color: #ffffff;">
